@@ -30,7 +30,7 @@ Formal TOGAF deliverables are mapped in [TOGAF Deliverable Coverage](./artifact-
 | F. Migration Planning | [Work Packages](./implementation-migration/work-packages.md), [Architecture Version Register](./architecture-states/architecture-version-register.md) | Planned | Group delivery work into implementable packages and tie work to named architecture versions. |
 | G. Implementation Governance | [Architecture Review](./governance/architecture-review.md), [Readiness](./implementation-migration/readiness.md) | Planned | Define review gates and architecture compliance evidence. |
 | H. Architecture Change Management | [Change Control](./governance/change-control.md), [Waivers](./governance/waivers.md) | Planned | Govern changes, exceptions, and lifecycle updates. |
-| Requirements Management | [Requirements](./requirements.md) | Planned | Maintain architecture-significant requirements and traceability. |
+| Requirements Management | [Requirements](./requirements.md) | Planned | Maintain central architecture-significant requirements continuously across all ADM phases; phase artifacts interpret and evidence them. |
 
 ## Tailoring Decisions
 
