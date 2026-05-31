@@ -18,6 +18,6 @@ Avoid:
 
 ## Contents
 
-- [Architecture Review](./architecture-review.md)
-- [Change Control](./change-control.md)
-- [Waivers](./waivers.md)
+- [Architecture Review](architecture-review.md)
+- [Change Control](change-control.md)
+- [Waivers](waivers.md)

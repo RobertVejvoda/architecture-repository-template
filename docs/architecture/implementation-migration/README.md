@@ -17,7 +17,7 @@ Avoid:
 
 ## Contents
 
-- [Roadmap](./roadmap.md)
-- [Transition Architectures](./transition-architectures.md)
-- [Work Packages](./work-packages.md)
-- [Readiness](./readiness.md)
+- [Roadmap](roadmap.md)
+- [Transition Architectures](transition-architectures.md)
+- [Work Packages](work-packages.md)
+- [Readiness](readiness.md)

@@ -36,8 +36,8 @@ Architecture state pages explain what exists now, what should exist, how the arc
 
 ## Contents
 
-- [Baseline Architecture](./baseline-architecture.md)
-- [Target Architecture](./target-architecture.md)
-- [Transition Architectures](./transition-architectures.md)
-- [Architecture Version Register](./architecture-version-register.md)
-- [Gap Analysis](./gap-analysis.md)
+- [Baseline Architecture](baseline-architecture.md)
+- [Target Architecture](target-architecture.md)
+- [Transition Architectures](transition-architectures.md)
+- [Architecture Version Register](architecture-version-register.md)
+- [Gap Analysis](gap-analysis.md)

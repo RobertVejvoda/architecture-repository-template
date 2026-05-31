@@ -40,5 +40,5 @@ Describe what the architecture repository covers and which systems, products, or
 - Link related artifacts instead of copying content.
 - Keep current-state evidence distinct from target architecture.
 - Mark assumptions and open questions clearly.
-- Track page-level status/version in the [Artifact Register](./artifact-register.md).
-- Track named baseline and target snapshots in [Architecture States](./architecture-states/README.md).
+- Track page-level status/version in the [Artifact Register](artifact-register.md).
+- Track named baseline and target snapshots in [Architecture States](architecture-states/README.md).

@@ -17,5 +17,5 @@ Avoid:
 
 ## Contents
 
-- [Viewpoint Catalog](./viewpoint-catalog.md)
-- [Diagrams](./diagrams.md)
+- [Viewpoint Catalog](viewpoint-catalog.md)
+- [Diagrams](diagrams.md)

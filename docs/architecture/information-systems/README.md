@@ -16,11 +16,11 @@ Avoid:
 
 ## Contents
 
-- [Application Architecture](./application-architecture.md)
-- [Data Architecture](./data-architecture.md)
-- [Integrations and Events](./integrations-events.md)
-- [Service Catalog](./service-catalog.md)
-- [API Contracts](./api-contracts.md)
+- [Application Architecture](application-architecture.md)
+- [Data Architecture](data-architecture.md)
+- [Integrations and Events](integrations-events.md)
+- [Service Catalog](service-catalog.md)
+- [API Contracts](api-contracts.md)
 
 ## Requirement Interpretation Example
 

@@ -18,7 +18,7 @@ Avoid:
 
 ## Contents
 
-- [Security Architecture](./security-architecture.md)
-- [Privacy Architecture](./privacy-architecture.md)
-- [Controls](./controls.md)
-- [Gap Register](./gap-register.md)
+- [Security Architecture](security-architecture.md)
+- [Privacy Architecture](privacy-architecture.md)
+- [Controls](controls.md)
+- [Gap Register](gap-register.md)

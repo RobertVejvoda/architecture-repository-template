@@ -18,11 +18,11 @@ Business architecture explains what the organization needs to do and why it matt
 
 ## Contents
 
-- [Capabilities](./capabilities.md)
-- [Value Streams](./value-streams.md)
-- [Actors and Roles](./actors-roles.md)
-- [Business Processes](./business-processes.md)
-- [Policies](./policies.md)
+- [Capabilities](capabilities.md)
+- [Value Streams](value-streams.md)
+- [Actors and Roles](actors-roles.md)
+- [Business Processes](business-processes.md)
+- [Policies](policies.md)
 
 ## Requirement Interpretation Example
 
