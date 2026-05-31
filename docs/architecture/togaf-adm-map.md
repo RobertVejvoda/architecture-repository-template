@@ -19,17 +19,28 @@ Avoid:
 
 | ADM Phase | Repository Pages | Status | Notes |
 | --- | --- | --- | --- |
-| Preliminary | [Principles](./principles), [Governance](./governance/) | Planned | Record architecture principles, governance model, and repository rules. |
-| A. Architecture Vision | [Architecture Vision](./architecture-vision), [Stakeholders and Concerns](./stakeholders-and-concerns) | Planned | Explain scope, stakeholders, value, constraints, and target outcome. |
-| B. Business Architecture | [Business Architecture](./business/) | Planned | Capabilities, value streams, actors, processes, and policies. |
-| C. Information Systems Architecture | [Information Systems](./information-systems/) | Planned | Application, data, service, API, and event architecture. |
-| D. Technology Architecture | [Technology](./technology/) | Planned | Runtime, deployment, observability, and technology platform. |
-| E. Opportunities And Solutions | [Roadmap](./implementation-migration/roadmap), [Transition Architectures](./implementation-migration/transition-architectures) | Planned | Identify candidate solution increments and target transition states. |
-| F. Migration Planning | [Work Packages](./implementation-migration/work-packages) | Planned | Group delivery work into implementable packages. |
-| G. Implementation Governance | [Architecture Review](./governance/architecture-review), [Readiness](./implementation-migration/readiness) | Planned | Define review gates and architecture compliance evidence. |
-| H. Architecture Change Management | [Change Control](./governance/change-control), [Waivers](./governance/waivers) | Planned | Govern changes, exceptions, and lifecycle updates. |
-| Requirements Management | [Requirements](./requirements) | Planned | Maintain architecture-significant requirements and traceability. |
+| Preliminary | [Principles](/architecture/principles), [Governance](/architecture/governance/), [Artifact Register](/architecture/artifact-register) | Planned | Record architecture principles, governance model, repository rules, artifact lifecycle, and status/version tracking. |
+| A. Architecture Vision | [Architecture Vision](/architecture/architecture-vision), [Stakeholders and Concerns](/architecture/stakeholders-and-concerns) | Planned | Explain scope, stakeholders, value, constraints, and target outcome. |
+| B. Business Architecture | [Business Architecture](/architecture/business/) | Planned | Capabilities, value streams, actors, processes, and policies. |
+| C. Information Systems Architecture | [Information Systems](/architecture/information-systems/) | Planned | Application, data, service, API, and event architecture. |
+| D. Technology Architecture | [Technology](/architecture/technology/) | Planned | Runtime, deployment, observability, and technology platform. |
+| E. Opportunities And Solutions | [Architecture States](/architecture/architecture-states/), [Gap Analysis](/architecture/architecture-states/gap-analysis), [Roadmap](/architecture/implementation-migration/roadmap), [Transition Architectures](/architecture/architecture-states/transition-architectures) | Planned | Compare baseline and target, identify gaps, and define candidate solution increments. |
+| F. Migration Planning | [Work Packages](/architecture/implementation-migration/work-packages), [Architecture Version Register](/architecture/architecture-states/architecture-version-register) | Planned | Group delivery work into implementable packages and tie work to named architecture versions. |
+| G. Implementation Governance | [Architecture Review](/architecture/governance/architecture-review), [Readiness](/architecture/implementation-migration/readiness) | Planned | Define review gates and architecture compliance evidence. |
+| H. Architecture Change Management | [Change Control](/architecture/governance/change-control), [Waivers](/architecture/governance/waivers) | Planned | Govern changes, exceptions, and lifecycle updates. |
+| Requirements Management | [Requirements](/architecture/requirements) | Planned | Maintain architecture-significant requirements and traceability. |
 
 ## Tailoring Decisions
 
 Record which TOGAF artifacts are intentionally omitted or simplified, and why.
+
+## Validation Gate Pattern
+
+Each ADM phase can move from `Draft` to `Approved` or `Baselined` when:
+
+- stakeholder concerns are addressed;
+- assumptions and open questions are listed;
+- security, privacy, and operational impact are considered;
+- affected decisions are recorded;
+- baseline-to-target gaps are linked where relevant;
+- the accountable owner or Architecture Board accepts the artifact.

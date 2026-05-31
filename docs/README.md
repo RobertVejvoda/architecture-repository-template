@@ -14,6 +14,7 @@ Use it to structure architecture content around stakeholder concerns, ADM phases
 | Technical stakeholder | [Information Systems](./architecture/information-systems/) and [Technology](./architecture/technology/) | Understand applications, data, integrations, runtime, and deployment. |
 | Security reviewer | [Security Architecture](./architecture/security/) | Understand security, privacy, controls, and known gaps. |
 | Delivery lead | [Implementation And Migration](./architecture/implementation-migration/) | Understand roadmap, transition states, work packages, and readiness. |
+| Architecture governor | [Architecture States](./architecture/architecture-states/) and [Artifact Register](./architecture/artifact-register) | Understand baseline/target versions, artifact status, and gaps. |
 
 ## How To Use This Template
 

@@ -28,6 +28,7 @@ Describe what the architecture repository covers and which systems, products, or
 | Information Systems Architecture | Applications, data, services, APIs, and integrations. |
 | Technology Architecture | Runtime platform, deployment, operations, and technical standards. |
 | Security Architecture | Security, privacy, controls, risks, and gaps. |
+| Architecture States | Baseline, target, transition, version register, and gap analysis. |
 | Implementation And Migration | Roadmap, transition architectures, work packages, and readiness. |
 | Governance | Review, change control, waivers, and decision process. |
 | Views And Diagrams | Stakeholder-specific viewpoints and diagram catalog. |
@@ -39,3 +40,5 @@ Describe what the architecture repository covers and which systems, products, or
 - Link related artifacts instead of copying content.
 - Keep current-state evidence distinct from target architecture.
 - Mark assumptions and open questions clearly.
+- Track page-level status/version in the [Artifact Register](./artifact-register).
+- Track named baseline and target snapshots in [Architecture States](./architecture-states/).
