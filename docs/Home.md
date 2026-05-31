@@ -4,15 +4,6 @@ This site is a reusable skeleton for a TOGAF 10-inspired architecture repository
 
 Use it to structure architecture content around stakeholder concerns, ADM phases, layered architecture views, decisions, governance, and implementation migration planning.
 
-## Template Version
-
-| Version | Date | Status | Summary | Migration Notes |
-| --- | --- | --- | --- | --- |
-| 0.2 | 2026-05-31 | Draft | Added architecture states, artifact register, and TOGAF deliverable coverage mapping. | Repositories using the template should map formal deliverables to existing pages before creating standalone deliverable documents. |
-| 0.1 | 2026-05-31 | Draft | Initial TOGAF-style architecture repository skeleton. | First usable baseline. |
-
-Detailed baseline, target, and transition architecture versions are tracked in [Architecture Version Register](./architecture/architecture-states/architecture-version-register).
-
 ## Reader Paths
 
 | Reader | Start here | Purpose |
