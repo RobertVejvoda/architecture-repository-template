@@ -16,16 +16,16 @@ Avoid:
 - mixing target-state aspirations into current-state description
 -->
 
-| | |
-| --- | --- |
-| **Status** | Draft |
-| **Version** | 0.1 |
-| **Architecture State** | Baseline |
-| **ADM Phase** | Cross-ADM |
-| **Responsible** | Architecture Owner |
-| **Accountable** | Architecture Board |
-| **Last Reviewed** | - |
-| **Next Review** | - |
+<table>
+<tr><td><strong>Status</strong></td><td>Draft</td></tr>
+<tr><td><strong>Version</strong></td><td>0.1</td></tr>
+<tr><td><strong>Architecture State</strong></td><td>Baseline</td></tr>
+<tr><td><strong>ADM Phase</strong></td><td>Cross-ADM</td></tr>
+<tr><td><strong>Responsible</strong></td><td>Architecture Owner</td></tr>
+<tr><td><strong>Accountable</strong></td><td>Architecture Board</td></tr>
+<tr><td><strong>Last Reviewed</strong></td><td>—</td></tr>
+<tr><td><strong>Next Review</strong></td><td>—</td></tr>
+</table>
 
 ## Baseline Summary
 

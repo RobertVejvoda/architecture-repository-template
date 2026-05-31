@@ -15,18 +15,18 @@ Avoid:
 - vague improvement ideas without baseline/target comparison
 -->
 
-| | |
-| --- | --- |
-| **Status** | Draft |
-| **Version** | 0.1 |
-| **Architecture State** | Gap Analysis |
-| **Baseline Version** | Current State v0.1 |
-| **Target Version** | Target State v0.1 |
-| **ADM Phase** | Phases E/F + Requirements Management |
-| **Responsible** | Architecture Owner |
-| **Accountable** | Architecture Board |
-| **Last Reviewed** | - |
-| **Next Review** | - |
+<table>
+<tr><td><strong>Status</strong></td><td>Draft</td></tr>
+<tr><td><strong>Version</strong></td><td>0.1</td></tr>
+<tr><td><strong>Architecture State</strong></td><td>Gap Analysis</td></tr>
+<tr><td><strong>Baseline Version</strong></td><td>Current State v0.1</td></tr>
+<tr><td><strong>Target Version</strong></td><td>Target State v0.1</td></tr>
+<tr><td><strong>ADM Phase</strong></td><td>Phases E/F + Requirements Management</td></tr>
+<tr><td><strong>Responsible</strong></td><td>Architecture Owner</td></tr>
+<tr><td><strong>Accountable</strong></td><td>Architecture Board</td></tr>
+<tr><td><strong>Last Reviewed</strong></td><td>—</td></tr>
+<tr><td><strong>Next Review</strong></td><td>—</td></tr>
+</table>
 
 | Gap ID | Area | Baseline Version | Target Version | Baseline State | Target State | Gap | Impact | Work Package | Owner | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
