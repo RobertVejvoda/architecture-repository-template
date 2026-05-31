@@ -4,21 +4,27 @@
   <meta charset="UTF-8">
   <title>Architecture Repository Template</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
 </head>
 <body>
   <div id="app"></div>
   <script>
+    const docsBasePath = window.location.pathname.endsWith('/')
+      ? window.location.pathname
+      : window.location.pathname.replace(/\/[^/]*$/, '/');
+
     window.$docsify = {
       name: 'Architecture Repository Template',
+      nameLink: `${docsBasePath}#/`,
       repo: 'https://github.com/RobertVejvoda/architecture-repository-template',
+      basePath: docsBasePath,
       homepage: 'Home.md',
       loadSidebar: true,
       subMaxLevel: 2,
       search: 'auto'
     }
   </script>
-  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
 </body>
 </html>
