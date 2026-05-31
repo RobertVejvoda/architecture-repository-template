@@ -1,4 +1,5 @@
 * [Home](Home.md)
+* [Contributing](contributing.md)
 * [Architecture Repository](architecture/README.md)
   * [TOGAF ADM Map](architecture/togaf-adm-map.md)
   * [Architecture Vision](architecture/architecture-vision.md)
