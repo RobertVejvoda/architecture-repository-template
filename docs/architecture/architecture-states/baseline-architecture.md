@@ -16,15 +16,15 @@ Avoid:
 - mixing target-state aspirations into current-state description
 -->
 
-<table>
-<tr><td><strong>Status</strong></td><td>Draft</td></tr>
-<tr><td><strong>Version</strong></td><td>0.1</td></tr>
-<tr><td><strong>Architecture State</strong></td><td>Baseline</td></tr>
-<tr><td><strong>ADM Phase</strong></td><td>Cross-ADM</td></tr>
-<tr><td><strong>Responsible</strong></td><td>Architecture Owner</td></tr>
-<tr><td><strong>Accountable</strong></td><td>Architecture Board</td></tr>
-<tr><td><strong>Last Reviewed</strong></td><td>—</td></tr>
-<tr><td><strong>Next Review</strong></td><td>—</td></tr>
+<table style="border:none;border-collapse:collapse;">
+<tr style="border:none;"><td style="border:none;padding:3px 16px 3px 0;"><strong>Status</strong></td><td style="border:none;padding:3px 0;">Draft</td></tr>
+<tr style="border:none;"><td style="border:none;padding:3px 16px 3px 0;"><strong>Version</strong></td><td style="border:none;padding:3px 0;">0.1</td></tr>
+<tr style="border:none;"><td style="border:none;padding:3px 16px 3px 0;"><strong>Architecture State</strong></td><td style="border:none;padding:3px 0;">Baseline</td></tr>
+<tr style="border:none;"><td style="border:none;padding:3px 16px 3px 0;"><strong>ADM Phase</strong></td><td style="border:none;padding:3px 0;">Cross-ADM</td></tr>
+<tr style="border:none;"><td style="border:none;padding:3px 16px 3px 0;"><strong>Responsible</strong></td><td style="border:none;padding:3px 0;">Architecture Owner</td></tr>
+<tr style="border:none;"><td style="border:none;padding:3px 16px 3px 0;"><strong>Accountable</strong></td><td style="border:none;padding:3px 0;">Architecture Board</td></tr>
+<tr style="border:none;"><td style="border:none;padding:3px 16px 3px 0;"><strong>Last Reviewed</strong></td><td style="border:none;padding:3px 0;">—</td></tr>
+<tr style="border:none;"><td style="border:none;padding:3px 16px 3px 0;"><strong>Next Review</strong></td><td style="border:none;padding:3px 0;">—</td></tr>
 </table>
 
 ## Baseline Summary

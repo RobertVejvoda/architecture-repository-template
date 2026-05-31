@@ -20,17 +20,17 @@ Avoid:
 
 Each major architecture artifact should start with a small metadata table.
 
-<table>
-<tr><td><strong>Status</strong></td><td>Draft / In Review / Approved / Baselined / Deprecated / Superseded</td></tr>
-<tr><td><strong>Version</strong></td><td>0.1</td></tr>
-<tr><td><strong>Architecture State</strong></td><td>Baseline / Target / Transition / Gap Analysis / Cross-cutting</td></tr>
-<tr><td><strong>Baseline Version</strong></td><td>Current State v1.0</td></tr>
-<tr><td><strong>Target Version</strong></td><td>Target State v1.0</td></tr>
-<tr><td><strong>ADM Phase</strong></td><td>Phase A / B / C / D / E / F / G / H / Requirements Management</td></tr>
-<tr><td><strong>Responsible</strong></td><td>Architecture Owner</td></tr>
-<tr><td><strong>Accountable</strong></td><td>Architecture Board</td></tr>
-<tr><td><strong>Last Reviewed</strong></td><td>YYYY-MM-DD</td></tr>
-<tr><td><strong>Next Review</strong></td><td>YYYY-MM-DD or event-triggered</td></tr>
+<table style="border:none;border-collapse:collapse;">
+<tr style="border:none;"><td style="border:none;padding:3px 16px 3px 0;"><strong>Status</strong></td><td style="border:none;padding:3px 0;">Draft / In Review / Approved / Baselined / Deprecated / Superseded</td></tr>
+<tr style="border:none;"><td style="border:none;padding:3px 16px 3px 0;"><strong>Version</strong></td><td style="border:none;padding:3px 0;">0.1</td></tr>
+<tr style="border:none;"><td style="border:none;padding:3px 16px 3px 0;"><strong>Architecture State</strong></td><td style="border:none;padding:3px 0;">Baseline / Target / Transition / Gap Analysis / Cross-cutting</td></tr>
+<tr style="border:none;"><td style="border:none;padding:3px 16px 3px 0;"><strong>Baseline Version</strong></td><td style="border:none;padding:3px 0;">Current State v1.0</td></tr>
+<tr style="border:none;"><td style="border:none;padding:3px 16px 3px 0;"><strong>Target Version</strong></td><td style="border:none;padding:3px 0;">Target State v1.0</td></tr>
+<tr style="border:none;"><td style="border:none;padding:3px 16px 3px 0;"><strong>ADM Phase</strong></td><td style="border:none;padding:3px 0;">Phase A / B / C / D / E / F / G / H / Requirements Management</td></tr>
+<tr style="border:none;"><td style="border:none;padding:3px 16px 3px 0;"><strong>Responsible</strong></td><td style="border:none;padding:3px 0;">Architecture Owner</td></tr>
+<tr style="border:none;"><td style="border:none;padding:3px 16px 3px 0;"><strong>Accountable</strong></td><td style="border:none;padding:3px 0;">Architecture Board</td></tr>
+<tr style="border:none;"><td style="border:none;padding:3px 16px 3px 0;"><strong>Last Reviewed</strong></td><td style="border:none;padding:3px 0;">YYYY-MM-DD</td></tr>
+<tr style="border:none;"><td style="border:none;padding:3px 16px 3px 0;"><strong>Next Review</strong></td><td style="border:none;padding:3px 0;">YYYY-MM-DD or event-triggered</td></tr>
 </table>
 
 ## Register
