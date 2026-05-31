@@ -2,6 +2,7 @@
 * [Contributing](contributing.md)
 * [Architecture Repository](architecture/README.md)
   * [TOGAF ADM Map](architecture/togaf-adm-map.md)
+  * [ADM Checklist](architecture/adm-checklist.md)
   * [Architecture Vision](architecture/architecture-vision.md)
   * [Stakeholders and Concerns](architecture/stakeholders-and-concerns.md)
   * [Principles](architecture/principles.md)
