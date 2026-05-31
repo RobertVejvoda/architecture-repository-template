@@ -18,4 +18,6 @@ Avoid:
 
 | Gap | Impact | Mitigation | Owner | Status |
 | --- | --- | --- | --- | --- |
-| Example gap | Risk or consequence | Planned mitigation | Owner | Open |
+| Public ingress not validated for target profile. | Increased exposure risk before pilot or production. | Complete WAF, TLS, origin protection, and smoke validation. | Security Lead / Operations | Open |
+| Restore evidence missing for authoritative stores. | Incident recovery cannot be proven. | Run restore drill and link evidence from readiness. | Operations | Open |
+| Privileged action audit coverage incomplete. | Support or compliance review may lack proof of who changed what and why. | Add audit events/tests for privileged commands. | Domain Owner | Planned |

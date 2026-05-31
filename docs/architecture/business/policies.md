@@ -18,4 +18,6 @@ Avoid:
 
 | Policy | Rule | Owner | Notes |
 | --- | --- | --- | --- |
-| Example policy | Business rule. | Business owner | Notes or exceptions. |
+| Eligibility Policy | Only eligible users may request or receive constrained resources. | Business Owner | Eligibility source must be authoritative and auditable. |
+| Cancellation Policy | Privileged cancellation requires reason, audit evidence, and user notification where applicable. | Operations Owner | Retry must not duplicate side effects. |
+| Readiness Policy | Customer or tenant traffic may start only after mandatory readiness checks pass or are formally waived. | Architecture Board | Waivers need owner and review date. |

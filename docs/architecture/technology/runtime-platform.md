@@ -18,4 +18,6 @@ Avoid:
 
 | Technology Area | Standard / Direction | Rationale | Notes |
 | --- | --- | --- | --- |
-| Example area | Selected standard | Why | Constraints or alternatives |
+| Service Runtime | Containerized services with explicit health checks and configuration boundaries. | Supports repeatable local, demo, and production profiles. | Runtime-specific details belong in deployment profiles. |
+| State And Events | Service-owned persistence plus asynchronous events for read models and evidence. | Keeps command ownership clear and enables operational views. | Use outbox or equivalent reliability pattern where state and events must be atomic. |
+| Secrets And Identity | Externalized secrets and trusted identity provider integration. | Avoids committed credentials and centralizes authentication. | Local development may use safe substitutes clearly marked as non-production. |

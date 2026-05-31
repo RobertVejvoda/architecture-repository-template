@@ -10,6 +10,7 @@ This page tracks the version of the template document structure itself. Project-
 
 | Version | Date | Status | Summary | Migration Notes |
 | --- | --- | --- | --- | --- |
+| 0.6 | 2026-05-31 | Draft | Replaced thin placeholder rows with three meaningful sample rows across architecture artifacts. | Template users should keep sample rows until they can replace them with project-specific content, then preserve at least three representative rows where the pattern is not obvious. |
 | 0.5 | 2026-05-31 | Draft | Added artifact metadata to major architecture artifacts, an Architecture Board page, and FairSpot requirement-to-gap/work-package examples. | Repositories using the template should keep decisions in the decision log, define board governance separately, and trace requirements to phase impacts, gaps, and work packages. |
 | 0.4 | 2026-05-31 | Draft | Added cross-phase Requirements Management guidance with a FairSpot-style example. | Requirements should be generic and centrally tracked, then interpreted by each affected ADM phase with evidence and gaps. |
 | 0.3 | 2026-05-31 | Draft | Changed artifact metadata examples to compact metadata tables without visible headers. | Repositories using the template should prefer two-column metadata tables with bold field names and normal values. |

@@ -17,4 +17,6 @@ Avoid:
 
 | Value Stream | Trigger | Outcome | Key Capabilities |
 | --- | --- | --- | --- |
-| Example value stream | Business event | Stakeholder value delivered | Capability links |
+| Onboard Customer | Signed pilot or customer agreement. | Tenant is configured, validated, and ready for controlled use. | Tenant Onboarding, Identity Setup, Readiness Validation |
+| Request And Allocate Resource | User submits a request for a constrained resource. | User receives an accepted, allocated, waitlisted, or rejected outcome. | Resource Allocation, Policy Management, Notification |
+| Operate Service | Service is running for active users. | Operators and managers can detect issues, respond, and prove readiness. | Operational Oversight, Incident Response, Reporting |

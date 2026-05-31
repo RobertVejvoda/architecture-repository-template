@@ -17,4 +17,6 @@ Avoid:
 
 | Viewpoint | Audience | Concern Answered | Source |
 | --- | --- | --- | --- |
-| Example viewpoint | Stakeholder group | Question answered | Link to diagram/page |
+| Business Capability View | Sponsor, business owner, architect | Which business capabilities are in scope and how mature or critical are they? | Business Architecture, Capabilities |
+| Application Cooperation View | Architect, delivery lead, integration owner | Which applications/services collaborate and where are the integration boundaries? | Application Architecture, Integrations and Events |
+| Deployment And Operations View | Operator, security reviewer, architecture board | How is the solution deployed, secured, monitored, and recovered in each profile? | Technology Architecture, Deployment Profiles, Readiness |

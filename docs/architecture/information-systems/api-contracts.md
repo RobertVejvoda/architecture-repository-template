@@ -17,4 +17,6 @@ Avoid:
 
 | API | Owner | Contract Location | Versioning / Compatibility |
 | --- | --- | --- | --- |
-| Example API | Owning team/service | Link to contract | Compatibility notes |
+| Tenant Readiness API | Customer / Tenant Service | OpenAPI or source contract link | Additive changes preferred; readiness states must remain backward compatible. |
+| Request Lifecycle API | Booking / Allocation Service | OpenAPI or source contract link | Employee-safe shape must not expose hidden decision internals. |
+| Projection Health API | DataHub / Read Model Service | OpenAPI or source contract link | Must expose safe lag/failure metadata without raw private payloads. |

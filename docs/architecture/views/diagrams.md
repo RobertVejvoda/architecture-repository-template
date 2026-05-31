@@ -18,4 +18,6 @@ Avoid:
 
 | Diagram | Purpose | Source | Export | Status |
 | --- | --- | --- | --- | --- |
-| Example diagram | What it explains | Source model/file | Exported image | Draft |
+| Capability Map | Shows in-scope business capabilities and priorities. | Model file or diagram source path | Exported image path | Draft |
+| Application Cooperation | Shows services, APIs, events, and major data/read-model flows. | Model file or diagram source path | Exported image path | Draft |
+| Deployment Profile | Shows runtime nodes, ingress, trust boundaries, stores, and observability. | Model file or diagram source path | Exported image path | Draft |

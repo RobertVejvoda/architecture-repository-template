@@ -70,7 +70,7 @@ Replace the example roles with project-specific members or role names.
 | Implementation conformance review | During Phase G or release readiness. | PR/release evidence, readiness checks, unresolved gaps. |
 | Periodic architecture review | Project-defined cadence or major business/technology trigger. | Updated artifact register and version register. |
 
-## FairSpot Example
+## FairSpot Samples
 
 | Decision | Board Consideration | Recorded In |
 | --- | --- | --- |

@@ -36,8 +36,10 @@ Keep requirement statements generic enough to remain stable. The affected phases
 
 | ID | Requirement | Source | Affected ADM Areas | Status |
 | --- | --- | --- | --- | --- |
-| AR-001 | Example architecture requirement. | Stakeholder / regulation / strategy | B, C, D, Security, G | Draft |
-| AR-FS-001 | FairSpot example: tenant data must be isolated across APIs, persistence, events, audit, and read models. | Customer/security concern | B, C, D, Security, G | Example |
+| AR-001 | Users must only access data and actions permitted for their role and organizational scope. | Stakeholder/security concern | B, C, Security, G | Draft |
+| AR-002 | Operational state needed for pilot or production must survive restart and have backup/restore evidence. | Operations concern | C, D, E/F, G | Draft |
+| AR-003 | Public-facing surfaces must be protected by an approved ingress, identity, logging, and abuse-prevention profile. | Security/operations concern | C, D, Security, G | Draft |
+| AR-FS-001 | FairSpot sample: tenant data must be isolated across APIs, persistence, events, audit, and read models. | Customer/security concern | B, C, D, Security, G | Illustrative |
 
 ## Phase Impact Tracking
 

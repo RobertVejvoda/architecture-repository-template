@@ -17,4 +17,6 @@ Avoid:
 
 | Readiness Area | Evidence Required | Status | Notes |
 | --- | --- | --- | --- |
-| Example area | Evidence or test needed | Planned | Notes |
+| Security Readiness | Identity, authorization, secret handling, ingress protection, and audit evidence reviewed. | Planned | Link controls, tests, and waivers. |
+| Operational Readiness | Health checks, observability, backup/restore, support boundary, and runbooks available. | Planned | Include profile-specific evidence. |
+| Data Readiness | Authoritative stores, retention, tenant/domain isolation, migration, and rebuild strategy validated. | Planned | Link data architecture and gap analysis. |

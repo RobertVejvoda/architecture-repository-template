@@ -36,4 +36,6 @@ Avoid:
 
 ## Open Questions
 
-- Question 1
+- Which stakeholder or board role can accept residual operational risk for the first pilot?
+- Which architecture requirements are mandatory for production but optional for internal demo use?
+- Which diagrams are authoritative target diagrams, and which are retained only as baseline evidence?

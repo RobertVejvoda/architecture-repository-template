@@ -17,4 +17,6 @@ Avoid:
 
 | Profile | Purpose | Key Components | Responsibilities |
 | --- | --- | --- | --- |
-| Example profile | Why it exists | Runtime, data, ingress, observability | Team or owner responsibilities |
+| Local Development | Developer workflow and automated validation. | Local services, local dependencies, test identity, lightweight observability. | Development team owns setup and reset scripts. |
+| Hosted Pilot | Controlled customer or stakeholder evaluation. | Public ingress, managed identity, persistent stores, monitoring, backup evidence. | Product/operator owns readiness and support boundary. |
+| Customer-Owned Production | Deployment into a customer-controlled environment. | Customer-approved ingress, identity, data stores, secrets, observability. | Shared responsibilities must be documented before handoff. |

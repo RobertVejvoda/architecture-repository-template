@@ -18,6 +18,6 @@ Avoid:
 
 | Signal | Purpose | Retention | Owner |
 | --- | --- | --- | --- |
-| Logs | Diagnostic events | Example retention | Operations |
-| Metrics | Health and performance | Example retention | Operations |
-| Traces | Request flow and correlation | Example retention | Operations |
+| Logs | Diagnose service behavior, exceptions, and operator-visible failures. | Project-defined period based on support and privacy needs. | Operations |
+| Metrics | Track health, performance, saturation, and business-critical processing lag. | Short-to-medium operational window plus dashboard history. | Operations |
+| Traces | Correlate user/API/event flows across services. | Short diagnostic window; avoid retaining sensitive payloads. | Operations / Architecture |

@@ -18,4 +18,6 @@ Avoid:
 
 | Control ID | Control | Evidence | Owner | Status |
 | --- | --- | --- | --- | --- |
-| SEC-001 | Example control. | Link or evidence summary | Owner | Planned |
+| SEC-001 | APIs derive tenant, actor, and role from trusted authentication context. | API contract, authorization tests, architecture review evidence. | Security Lead | Planned |
+| SEC-002 | Secrets are stored outside source code and injected through approved runtime mechanisms. | Deployment profile, secret-store configuration, repository scan evidence. | Operations | Planned |
+| SEC-003 | Privileged actions produce audit evidence with actor, target, reason, and timestamp. | Audit contract, event evidence, implementation tests. | Security Lead / Domain Owner | Planned |

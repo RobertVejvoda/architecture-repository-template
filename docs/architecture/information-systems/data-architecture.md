@@ -18,4 +18,6 @@ Avoid:
 
 | Data Area | Owner | Classification | Lifecycle Notes |
 | --- | --- | --- | --- |
-| Example data | Owning service/domain | Public/Internal/Confidential/Secret | Retention or lifecycle rules |
+| Tenant readiness state | Customer / Tenant Service | Internal / Confidential | Retained while tenant is active; archived or deleted according to contract. |
+| Resource requests and outcomes | Booking / Allocation Service | Confidential | Retained for operational, audit, and dispute windows. |
+| Projection summaries | DataHub / Read Model Service | Internal / Confidential | Rebuildable from events where event retention permits; freshness and lag tracked. |

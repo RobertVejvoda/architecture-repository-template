@@ -31,23 +31,26 @@ Avoid:
 
 ## Problem Statement
 
-Describe the business or technical problem the architecture must solve.
+The current product or capability cannot be safely scaled to the intended audience because business processes, data ownership, integration contracts, runtime operation, and governance evidence are not yet consistently documented or validated.
 
 ## Goals
 
-- Goal 1
-- Goal 2
-- Goal 3
+- Establish a target architecture that stakeholders can review and approve.
+- Identify baseline-to-target gaps and convert them into migration work packages.
+- Provide enough governance, security, and operational evidence to support a pilot or production decision.
 
 ## Non-Goals
 
-- Non-goal 1
-- Non-goal 2
+- Replace delivery backlog management or sprint planning.
+- Specify low-level implementation details that belong in service design or code.
+- Approve unresolved security, privacy, or operational risks without an explicit waiver.
 
 ## Scope
 
-Define what is in scope and out of scope.
+Define the products, domains, organizations, deployment profiles, stakeholder groups, and architecture states covered by this repository. Explicitly list important exclusions so readers know which decisions are outside this architecture cycle.
 
 ## Success Criteria
 
-Describe how stakeholders will know the architecture is good enough.
+- Architecture Board accepts the target scope, principles, requirements, and major decisions.
+- Gap analysis has owners, impacts, and work packages for material gaps.
+- Implementation governance can verify delivery evidence against requirements, controls, and readiness criteria.

@@ -17,4 +17,6 @@ Avoid:
 
 | Actor / Role | Responsibilities | Concerns | Notes |
 | --- | --- | --- | --- |
-| Example role | What this role does. | What this role cares about. | Optional notes. |
+| Employee / End User | Requests resources, views own status, and receives notifications. | Clear outcome, privacy, simple workflow. | Must not see other users' private data. |
+| Manager / Operations User | Reviews operational queues, exceptions, and service readiness. | Safe override actions, auditability, timely status. | Access should be scoped by organization or location. |
+| Administrator | Configures tenants, policies, integrations, and readiness checks. | Correct setup, traceability, rollback, supportability. | Privileged actions require audit evidence. |

@@ -18,4 +18,6 @@ Avoid:
 
 | Capability | Description | Priority | Notes |
 | --- | --- | --- | --- |
-| Example capability | What the business can do. | High | Why it matters. |
+| Tenant Onboarding | Create, configure, validate, and activate a customer or organizational tenant. | High | Often gates first customer readiness and operational support. |
+| Resource Allocation | Match constrained resources to eligible requests using approved business rules. | High | Requires explainability, fairness, and exception handling. |
+| Operational Oversight | Monitor requests, exceptions, service health, and readiness evidence. | Medium | Supports HR, operators, managers, and support roles. |
