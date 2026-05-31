@@ -16,15 +16,15 @@ Avoid:
 
 ## Contents
 
-- [Application Architecture](application-architecture.md)
-- [Data Architecture](data-architecture.md)
-- [Integrations and Events](integrations-events.md)
-- [Service Catalog](service-catalog.md)
-- [API Contracts](api-contracts.md)
+- [Application Architecture](architecture/information-systems/application-architecture.md)
+- [Data Architecture](architecture/information-systems/data-architecture.md)
+- [Integrations and Events](architecture/information-systems/integrations-events.md)
+- [Service Catalog](architecture/information-systems/service-catalog.md)
+- [API Contracts](architecture/information-systems/api-contracts.md)
 
 ## Requirement Interpretation Example
 
-Use this section to show how Information Systems Architecture interprets central requirements from [Requirements Management](../requirements.md). Keep the central statement stable and record application/data/API/event consequences here.
+Use this section to show how Information Systems Architecture interprets central requirements from [Requirements Management](architecture/requirements.md). Keep the central statement stable and record application/data/API/event consequences here.
 
 | Requirement | Information Systems Interpretation | Evidence | Gap |
 | --- | --- | --- | --- |
