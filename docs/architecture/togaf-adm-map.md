@@ -17,6 +17,8 @@ Avoid:
 
 ## ADM Coverage
 
+Formal TOGAF deliverables are mapped in [TOGAF Deliverable Coverage](/architecture/artifact-register?id=togaf-deliverable-coverage). This template encourages coverage and traceability over duplicate documents.
+
 | ADM Phase | Repository Pages | Status | Notes |
 | --- | --- | --- | --- |
 | Preliminary | [Principles](/architecture/principles), [Governance](/architecture/governance/), [Artifact Register](/architecture/artifact-register) | Planned | Record architecture principles, governance model, repository rules, artifact lifecycle, and status/version tracking. |
