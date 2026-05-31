@@ -18,8 +18,8 @@ Avoid:
 
 | Architecture Version | Type | Status | Date | Scope | Related Artifacts | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Current State v0.1 | Baseline | Draft | YYYY-MM-DD | Current-state evidence. | [Baseline Architecture](baseline-architecture.md) | Initial baseline placeholder. |
-| Target State v0.1 | Target | Draft | YYYY-MM-DD | Future target architecture. | [Target Architecture](target-architecture.md) | Initial target placeholder. |
+| Current State v0.1 | Baseline | Draft | YYYY-MM-DD | Current-state evidence. | [Baseline Architecture](architecture/architecture-states/baseline-architecture.md) | Initial baseline placeholder. |
+| Target State v0.1 | Target | Draft | YYYY-MM-DD | Future target architecture. | [Target Architecture](architecture/architecture-states/target-architecture.md) | Initial target placeholder. |
 
 ## Status Rules
 
