@@ -31,6 +31,7 @@ Avoid:
 | Gap ID | Area | Baseline Version | Target Version | Baseline State | Target State | Gap | Impact | Work Package | Owner | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | GAP-001 | Example area | Current State v0.1 | Target State v0.1 | What exists today. | What should exist. | Difference to close. | Business or technical impact. | Work package link. | Owner | Open |
+| GAP-FS-001 | FairSpot example: tenant readiness persistence | Current State v0.1 | Customer-Ready Target v0.1 | Some tenant/customer readiness state is in-memory or not yet restart-safe. | Tenant readiness and onboarding state is tenant-scoped, durable, backup-aware, and safe for hosted pilot operation. | Customer pilot cannot rely on volatile state for tenant readiness. | Public customer traffic is blocked until durability and tenant isolation are proven. | [WP-FS-001](../implementation-migration/work-packages.md) | Architecture Owner / Implementer | Planned |
 
 ## Gap Status Values
 

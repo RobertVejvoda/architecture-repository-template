@@ -15,6 +15,18 @@ Avoid:
 - owner assignment churn
 -->
 
+<table style="border:none;border-collapse:collapse;">
+<tr style="border:none;"><td style="border:none;padding:3px 16px 3px 0;"><strong>Status</strong></td><td style="border:none;padding:3px 0;">Draft</td></tr>
+<tr style="border:none;"><td style="border:none;padding:3px 16px 3px 0;"><strong>Version</strong></td><td style="border:none;padding:3px 0;">0.1</td></tr>
+<tr style="border:none;"><td style="border:none;padding:3px 16px 3px 0;"><strong>Architecture State</strong></td><td style="border:none;padding:3px 0;">Transition / Migration</td></tr>
+<tr style="border:none;"><td style="border:none;padding:3px 16px 3px 0;"><strong>ADM Phase</strong></td><td style="border:none;padding:3px 0;">Phases E/F</td></tr>
+<tr style="border:none;"><td style="border:none;padding:3px 16px 3px 0;"><strong>Responsible</strong></td><td style="border:none;padding:3px 0;">Architecture Owner</td></tr>
+<tr style="border:none;"><td style="border:none;padding:3px 16px 3px 0;"><strong>Accountable</strong></td><td style="border:none;padding:3px 0;">Architecture Board</td></tr>
+<tr style="border:none;"><td style="border:none;padding:3px 16px 3px 0;"><strong>Last Reviewed</strong></td><td style="border:none;padding:3px 0;">-</td></tr>
+<tr style="border:none;"><td style="border:none;padding:3px 16px 3px 0;"><strong>Next Review</strong></td><td style="border:none;padding:3px 0;">-</td></tr>
+</table>
+
 | Work Package | Objective | Affected Architecture | Validation |
 | --- | --- | --- | --- |
 | Example package | What it changes | Capabilities/components/views | Evidence expected |
+| WP-FS-001 FairSpot tenant readiness persistence | Make tenant onboarding/readiness state restart-safe and tenant-isolated for a hosted pilot. | Requirements `AR-FS-001`, Information Systems data ownership, Technology runtime/storage profile, Security tenant isolation, Gap `GAP-FS-001`. | Tests for tenant-scoped keys and no cross-tenant reads; restart/persistence evidence; architecture gap status updated when proven. |

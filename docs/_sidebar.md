@@ -42,6 +42,7 @@
   * [Work Packages](architecture/implementation-migration/work-packages.md)
   * [Readiness](architecture/implementation-migration/readiness.md)
 * [Governance](architecture/governance/README.md)
+  * [Architecture Board](architecture/governance/architecture-board.md)
   * [Architecture Review](architecture/governance/architecture-review.md)
   * [Change Control](architecture/governance/change-control.md)
   * [Waivers](architecture/governance/waivers.md)
