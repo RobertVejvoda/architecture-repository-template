@@ -20,18 +20,9 @@ Avoid:
 
 Each major architecture artifact should start with a small metadata table.
 
-| Field | Value |
-| --- | --- |
-| Status | Draft / In Review / Approved / Baselined / Deprecated / Superseded |
-| Version | 0.1 |
-| Architecture State | Baseline / Target / Transition / Gap Analysis / Cross-cutting |
-| Baseline Version | Current State v1.0 |
-| Target Version | Target State v1.0 |
-| ADM Phase | Phase A / B / C / D / E / F / G / H / Requirements Management |
-| Responsible | Architecture Owner |
-| Accountable | Architecture Board |
-| Last Reviewed | YYYY-MM-DD |
-| Next Review | YYYY-MM-DD or event-triggered |
+| Status | Version | Architecture State | Baseline Version | Target Version | ADM Phase | Responsible | Accountable | Last Reviewed | Next Review |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Draft / In Review / Approved / Baselined / Deprecated / Superseded | 0.1 | Baseline / Target / Transition / Gap Analysis / Cross-cutting | Current State v1.0 | Target State v1.0 | Phase A / B / C / D / E / F / G / H / Requirements Management | Architecture Owner | Architecture Board | YYYY-MM-DD | YYYY-MM-DD or event-triggered |
 
 ## Register
 

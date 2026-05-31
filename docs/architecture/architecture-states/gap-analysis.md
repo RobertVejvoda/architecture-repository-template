@@ -15,18 +15,9 @@ Avoid:
 - vague improvement ideas without baseline/target comparison
 -->
 
-| Field | Value |
-| --- | --- |
-| Status | Draft |
-| Version | 0.1 |
-| Architecture State | Gap Analysis |
-| Baseline Version | Current State v0.1 |
-| Target Version | Target State v0.1 |
-| ADM Phase | Phases E/F + Requirements Management |
-| Responsible | Architecture Owner |
-| Accountable | Architecture Board |
-| Last Reviewed | - |
-| Next Review | - |
+| Status | Version | Architecture State | Baseline Version | Target Version | ADM Phase | Responsible | Accountable | Last Reviewed | Next Review |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Draft | 0.1 | Gap Analysis | Current State v0.1 | Target State v0.1 | Phases E/F + Requirements Management | Architecture Owner | Architecture Board | - | - |
 
 | Gap ID | Area | Baseline Version | Target Version | Baseline State | Target State | Gap | Impact | Work Package | Owner | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |

@@ -15,17 +15,9 @@ Avoid:
 - presenting unapproved ideas as baselined target architecture
 -->
 
-| Field | Value |
-| --- | --- |
-| Status | Draft |
-| Version | 0.1 |
-| Architecture State | Target |
-| Target Version | Target State v0.1 |
-| ADM Phase | Cross-ADM |
-| Responsible | Architecture Owner |
-| Accountable | Architecture Board |
-| Last Reviewed | - |
-| Next Review | - |
+| Status | Version | Architecture State | Target Version | ADM Phase | Responsible | Accountable | Last Reviewed | Next Review |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Draft | 0.1 | Target | Target State v0.1 | Cross-ADM | Architecture Owner | Architecture Board | - | - |
 
 ## Target Summary
 

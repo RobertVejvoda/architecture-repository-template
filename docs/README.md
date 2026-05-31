@@ -10,6 +10,7 @@ This page tracks the version of the template document structure itself. Project-
 
 | Version | Date | Status | Summary | Migration Notes |
 | --- | --- | --- | --- | --- |
+| 0.3 | 2026-05-31 | Draft | Changed artifact metadata examples from vertical field/value tables to column-based metadata tables. | Repositories using the template should prefer one-row metadata tables with fields as columns. |
 | 0.2 | 2026-05-31 | Draft | Added architecture states, artifact register, and TOGAF deliverable coverage mapping. | Repositories using the template should map formal deliverables to existing pages before creating standalone deliverable documents. |
 | 0.1 | 2026-05-31 | Draft | Initial TOGAF-style architecture repository skeleton. | First usable baseline. |
 

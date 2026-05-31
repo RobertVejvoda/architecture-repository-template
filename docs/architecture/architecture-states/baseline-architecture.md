@@ -16,16 +16,9 @@ Avoid:
 - mixing target-state aspirations into current-state description
 -->
 
-| Field | Value |
-| --- | --- |
-| Status | Draft |
-| Version | 0.1 |
-| Architecture State | Baseline |
-| ADM Phase | Cross-ADM |
-| Responsible | Architecture Owner |
-| Accountable | Architecture Board |
-| Last Reviewed | - |
-| Next Review | - |
+| Status | Version | Architecture State | ADM Phase | Responsible | Accountable | Last Reviewed | Next Review |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Draft | 0.1 | Baseline | Cross-ADM | Architecture Owner | Architecture Board | - | - |
 
 ## Baseline Summary
 

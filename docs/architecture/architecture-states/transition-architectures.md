@@ -15,16 +15,9 @@ Avoid:
 - transitions that do not change architecture capability
 -->
 
-| Field | Value |
-| --- | --- |
-| Status | Draft |
-| Version | 0.1 |
-| Architecture State | Transition |
-| ADM Phase | Phases E/F |
-| Responsible | Architecture Owner |
-| Accountable | Architecture Board |
-| Last Reviewed | - |
-| Next Review | - |
+| Status | Version | Architecture State | ADM Phase | Responsible | Accountable | Last Reviewed | Next Review |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Draft | 0.1 | Transition | Phases E/F | Architecture Owner | Architecture Board | - | - |
 
 | Transition | From Version | To Version | Capabilities Added | Risks | Exit Criteria |
 | --- | --- | --- | --- | --- | --- |
