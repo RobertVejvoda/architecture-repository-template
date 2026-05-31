@@ -17,7 +17,7 @@ Avoid:
 
 ## Contents
 
-- [Roadmap](./roadmap)
-- [Transition Architectures](./transition-architectures)
-- [Work Packages](./work-packages)
-- [Readiness](./readiness)
+- [Roadmap](/architecture/implementation-migration/roadmap)
+- [Transition Architectures](/architecture/implementation-migration/transition-architectures)
+- [Work Packages](/architecture/implementation-migration/work-packages)
+- [Readiness](/architecture/implementation-migration/readiness)

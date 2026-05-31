@@ -37,12 +37,12 @@ Each major architecture artifact should start with a small metadata table.
 
 | Artifact | Path | ADM Phase | Architecture State | Status | Version | Responsible | Accountable | Last Reviewed | Next Review |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Architecture Vision | [Architecture Vision](./architecture-vision) | Phase A | Target | Draft | 0.1 | Architecture Owner | Architecture Board | - | - |
-| Business Architecture | [Business Architecture](./business/) | Phase B | Target | Draft | 0.1 | Business Owner | Architecture Board | - | - |
-| Information Systems Architecture | [Information Systems](./information-systems/) | Phase C | Target | Draft | 0.1 | Architecture Owner | Architecture Board | - | - |
-| Technology Architecture | [Technology](./technology/) | Phase D | Target | Draft | 0.1 | Architecture Owner | Architecture Board | - | - |
-| Security Architecture | [Security](./security/) | Cross-cutting | Target | Draft | 0.1 | Security Lead | Architecture Board | - | - |
-| Architecture States | [Architecture States](./architecture-states/) | Cross-ADM | Baseline / Target / Gap Analysis | Draft | 0.1 | Architecture Owner | Architecture Board | - | - |
+| Architecture Vision | [Architecture Vision](/architecture/architecture-vision) | Phase A | Target | Draft | 0.1 | Architecture Owner | Architecture Board | - | - |
+| Business Architecture | [Business Architecture](/architecture/business/) | Phase B | Target | Draft | 0.1 | Business Owner | Architecture Board | - | - |
+| Information Systems Architecture | [Information Systems](/architecture/information-systems/) | Phase C | Target | Draft | 0.1 | Architecture Owner | Architecture Board | - | - |
+| Technology Architecture | [Technology](/architecture/technology/) | Phase D | Target | Draft | 0.1 | Architecture Owner | Architecture Board | - | - |
+| Security Architecture | [Security](/architecture/security/) | Cross-cutting | Target | Draft | 0.1 | Security Lead | Architecture Board | - | - |
+| Architecture States | [Architecture States](/architecture/architecture-states/) | Cross-ADM | Baseline / Target / Gap Analysis | Draft | 0.1 | Architecture Owner | Architecture Board | - | - |
 
 ## Status Definitions
 

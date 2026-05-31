@@ -18,8 +18,8 @@ Business architecture explains what the organization needs to do and why it matt
 
 ## Contents
 
-- [Capabilities](./capabilities)
-- [Value Streams](./value-streams)
-- [Actors and Roles](./actors-roles)
-- [Business Processes](./business-processes)
-- [Policies](./policies)
+- [Capabilities](/architecture/business/capabilities)
+- [Value Streams](/architecture/business/value-streams)
+- [Actors and Roles](/architecture/business/actors-roles)
+- [Business Processes](/architecture/business/business-processes)
+- [Policies](/architecture/business/policies)

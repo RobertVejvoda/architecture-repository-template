@@ -17,6 +17,6 @@ Avoid:
 
 ## Contents
 
-- [Runtime Platform](./runtime-platform)
-- [Deployment Profiles](./deployment-profiles)
-- [Observability](./observability)
+- [Runtime Platform](/architecture/technology/runtime-platform)
+- [Deployment Profiles](/architecture/technology/deployment-profiles)
+- [Observability](/architecture/technology/observability)

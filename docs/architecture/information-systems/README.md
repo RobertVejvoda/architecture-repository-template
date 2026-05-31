@@ -16,8 +16,8 @@ Avoid:
 
 ## Contents
 
-- [Application Architecture](./application-architecture)
-- [Data Architecture](./data-architecture)
-- [Integrations and Events](./integrations-events)
-- [Service Catalog](./service-catalog)
-- [API Contracts](./api-contracts)
+- [Application Architecture](/architecture/information-systems/application-architecture)
+- [Data Architecture](/architecture/information-systems/data-architecture)
+- [Integrations and Events](/architecture/information-systems/integrations-events)
+- [Service Catalog](/architecture/information-systems/service-catalog)
+- [API Contracts](/architecture/information-systems/api-contracts)

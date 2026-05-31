@@ -17,5 +17,5 @@ Avoid:
 
 ## Contents
 
-- [Viewpoint Catalog](./viewpoint-catalog)
-- [Diagrams](./diagrams)
+- [Viewpoint Catalog](/architecture/views/viewpoint-catalog)
+- [Diagrams](/architecture/views/diagrams)
