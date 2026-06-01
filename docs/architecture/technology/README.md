@@ -7,6 +7,7 @@ Describe runtime technology choices, deployment profiles, and operational platfo
 Use this page for:
 - technology architecture overview
 - runtime standards
+- approved technology standards
 - deployment profiles
 - observability and resilience
 
@@ -30,4 +31,5 @@ Avoid:
 
 - [Runtime Platform](architecture/technology/runtime-platform.md)
 - [Deployment Profiles](architecture/technology/deployment-profiles.md)
+- [Technology Standards](architecture/technology/standards.md)
 - [Observability](architecture/technology/observability.md)

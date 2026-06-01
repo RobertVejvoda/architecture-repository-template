@@ -10,6 +10,7 @@ This page tracks the version of the template document structure itself. Project-
 
 | Version | Date | Status | Summary | Migration Notes |
 | --- | --- | --- | --- | --- |
+| 0.8 | 2026-06-01 | Draft | Added standards catalog, glossary, constraints, risk register, and architecture contract. | Use these artifacts to make approved choices, shared language, solution limits, non-security risks, and delivery conformance explicit. |
 | 0.7 | 2026-06-01 | Draft | Linked ADM checklist review gates to Architecture Review and Architecture Board governance. | Use the ADM checklist as the working readiness tool, Architecture Review as the review process, and Architecture Board as the decision owner. |
 | 0.6 | 2026-05-31 | Draft | Replaced thin placeholder rows with three meaningful sample rows across architecture artifacts. | Template users should keep sample rows until they can replace them with project-specific content, then preserve at least three representative rows where the pattern is not obvious. |
 | 0.5 | 2026-05-31 | Draft | Added artifact metadata to major architecture artifacts, an Architecture Board page, and FairSpot requirement-to-gap/work-package examples. | Repositories using the template should keep decisions in the decision log, define board governance separately, and trace requirements to phase impacts, gaps, and work packages. |
@@ -29,6 +30,7 @@ This page tracks the version of the template document structure itself. Project-
 | Security reviewer | [Security Architecture](architecture/security/README.md) | Understand security, privacy, controls, and known gaps. |
 | Delivery lead | [Implementation And Migration](architecture/implementation-migration/README.md) | Understand roadmap, transition states, work packages, and readiness. |
 | Architecture governor | [Architecture States](architecture/architecture-states/README.md) and [Artifact Register](architecture/artifact-register.md) | Understand baseline/target versions, artifact status, and gaps. |
+| Implementation team | [Technology Standards](architecture/technology/standards.md) and [Architecture Contract](architecture/governance/architecture-contract.md) | Understand approved choices and conformance expectations. |
 
 ## How To Use This Template
 

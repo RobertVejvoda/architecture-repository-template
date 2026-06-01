@@ -26,7 +26,7 @@ Avoid:
 <tr style="border:none;"><td style="border:none;padding:3px 16px 3px 0;"><strong>Next Review</strong></td><td style="border:none;padding:3px 0;">-</td></tr>
 </table>
 
-Architecture Board decisions are recorded here. Board membership, quorum, and review responsibilities are defined in [Architecture Board](governance/architecture-board.md).
+Architecture Board decisions are recorded here. Board membership, quorum, and review responsibilities are defined in [Architecture Board](architecture/governance/architecture-board.md).
 
 | Decision ID | Decision | Rationale | Decision Maker | Date | Status | Related Artifacts |
 | --- | --- | --- | --- | --- | --- | --- |

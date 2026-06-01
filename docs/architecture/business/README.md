@@ -29,15 +29,15 @@ Business architecture explains what the organization needs to do and why it matt
 
 ## Contents
 
-- [Capabilities](capabilities.md)
-- [Value Streams](value-streams.md)
-- [Actors and Roles](actors-roles.md)
-- [Business Processes](business-processes.md)
-- [Policies](policies.md)
+- [Capabilities](architecture/business/capabilities.md)
+- [Value Streams](architecture/business/value-streams.md)
+- [Actors and Roles](architecture/business/actors-roles.md)
+- [Business Processes](architecture/business/business-processes.md)
+- [Policies](architecture/business/policies.md)
 
 ## Requirement Interpretation Sample
 
-Use this section to show how Business Architecture interprets central requirements from [Requirements Management](../requirements.md). Do not duplicate the central requirement as a new competing requirement.
+Use this section to show how Business Architecture interprets central requirements from [Requirements Management](architecture/requirements.md). Do not duplicate the central requirement as a new competing requirement.
 
 | Requirement | Business Interpretation | Evidence | Gap |
 | --- | --- | --- | --- |

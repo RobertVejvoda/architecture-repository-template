@@ -13,6 +13,7 @@ The checklist is the operational readiness tool. Formal acceptance, when needed,
 - [ ] Define repository scope in [Architecture Repository](architecture/README.md): what systems, products, or domains are in scope?
 - [ ] Record your tailoring decisions in [TOGAF ADM Map](architecture/togaf-adm-map.md): which phases and artifacts apply, which are intentionally skipped?
 - [ ] Set up [Principles](architecture/principles.md) early — they inform every other phase.
+- [ ] Start shared vocabulary in [Glossary](architecture/glossary.md) before terms spread across artifacts.
 - [ ] Assign an owner to the [Artifact Register](architecture/artifact-register.md) to track status.
 
 ---
@@ -23,6 +24,7 @@ The checklist is the operational readiness tool. Formal acceptance, when needed,
 
 - [ ] What governance model applies? Who can approve and change architecture decisions? → [Governance](architecture/governance/README.md)
 - [ ] What are the guiding architecture principles? → [Principles](architecture/principles.md)
+- [ ] What hard limits shape architecture choices? → [Constraints](architecture/constraints.md)
 - [ ] What tools, formats, and review process will be used? → [Architecture Review](architecture/governance/architecture-review.md)
 
 - [ ] **Review gate:** Governance model, decision recording, and review ownership are clear enough for the Architecture Board or accountable owner to accept.
@@ -37,6 +39,7 @@ The checklist is the operational readiness tool. Formal acceptance, when needed,
 
 - [ ] What problem are we solving, and for whom? → [Architecture Vision](architecture/architecture-vision.md)
 - [ ] Who are the stakeholders and what do they care about? → [Stakeholders and Concerns](architecture/stakeholders-and-concerns.md)
+- [ ] Are constraints visible and separated from requirements? → [Constraints](architecture/constraints.md)
 - [ ] What are the key constraints (time, budget, regulation, existing systems)?
 - [ ] What does success look like?
 
@@ -80,7 +83,8 @@ The checklist is the operational readiness tool. Formal acceptance, when needed,
 **Goal:** Define the runtime platform and deployment model.
 
 - [ ] What is the deployment and hosting model? → [Runtime Platform](architecture/technology/runtime-platform.md)
-- [ ] What are the technology standards and approved components? → [Deployment Profiles](architecture/technology/deployment-profiles.md)
+- [ ] Which technologies, protocols, and profiles are approved? → [Technology Standards](architecture/technology/standards.md)
+- [ ] Which deployment profiles are supported? → [Deployment Profiles](architecture/technology/deployment-profiles.md)
 - [ ] How is the system observed in production? → [Observability](architecture/technology/observability.md)
 
 - [ ] **Review gate:** Operations/security/platform representatives confirm runtime, deployment, observability, and security posture are realistic for the selected profile.
@@ -96,6 +100,7 @@ The checklist is the operational readiness tool. Formal acceptance, when needed,
 - [ ] Document the current (baseline) state → [Baseline Architecture](architecture/architecture-states/baseline-architecture.md)
 - [ ] Document the desired (target) state → [Target Architecture](architecture/architecture-states/target-architecture.md)
 - [ ] Identify gaps between baseline and target → [Gap Analysis](architecture/architecture-states/gap-analysis.md)
+- [ ] Identify architecture-significant risks → [Risk Register](architecture/architecture-states/risk-register.md)
 - [ ] Define candidate solution increments or transition states → [Transition Architectures](architecture/architecture-states/transition-architectures.md)
 
 - [ ] **Review gate:** Architecture Board or accountable owner accepts that material gaps, options, and transition candidates are visible enough for migration planning.
@@ -124,6 +129,7 @@ The checklist is the operational readiness tool. Formal acceptance, when needed,
 **Goal:** Keep architecture honest during delivery.
 
 - [ ] Are review gates defined? Who signs off architecture compliance? → [Architecture Review](architecture/governance/architecture-review.md)
+- [ ] Are delivery conformance expectations explicit? → [Architecture Contract](architecture/governance/architecture-contract.md)
 - [ ] Are deviations from the architecture being tracked? → [Change Control](architecture/governance/change-control.md)
 - [ ] Are waivers being recorded with justification? → [Waivers](architecture/governance/waivers.md)
 
@@ -152,6 +158,7 @@ The checklist is the operational readiness tool. Formal acceptance, when needed,
 **Goal:** Track architecture-significant requirements so each phase has clear acceptance criteria.
 
 - [ ] Are requirements generic and phase-independent? → [Requirements](architecture/requirements.md)
+- [ ] Are terms consistent across phases? → [Glossary](architecture/glossary.md)
 - [ ] Does each requirement link to the phase artifact that satisfies it?
 - [ ] Are gaps and open questions recorded rather than left implicit?
 

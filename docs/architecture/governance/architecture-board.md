@@ -31,7 +31,7 @@ Avoid:
 
 The Architecture Board provides the lightweight governance body for architecture-significant decisions, phase readiness validation, standards, exceptions, and change control.
 
-The board owns acceptance rules. The [TOGAF ADM Checklist](../adm-checklist.md) is the working checklist for phase readiness, and [Architecture Review](architecture-review.md) defines the review process.
+The board owns acceptance rules. The [TOGAF ADM Checklist](architecture/adm-checklist.md) is the working checklist for phase readiness, and [Architecture Review](architecture/governance/architecture-review.md) defines the review process.
 
 ## Membership
 
@@ -47,12 +47,12 @@ Replace the example roles with project-specific members or role names.
 
 ## Decision Rules
 
-- Durable architecture decisions are recorded in [Architecture Decisions](../decisions.md).
+- Durable architecture decisions are recorded in [Architecture Decisions](architecture/decisions.md).
 - Each decision should identify the decision maker, date, status, rationale, alternatives considered, and affected artifacts.
 - Phase progression should not be treated as accepted until required artifacts are at `In Review` or stronger and material gaps are either planned, accepted, or closed.
-- Phase gates should use the review gates in [TOGAF ADM Checklist](../adm-checklist.md) and record the outcome through [Architecture Review](architecture-review.md).
-- Exceptions are recorded in [Waivers](waivers.md), not hidden in meeting notes.
-- Architecture-significant changes after approval are handled through [Change Control](change-control.md).
+- Phase gates should use the review gates in [TOGAF ADM Checklist](architecture/adm-checklist.md) and record the outcome through [Architecture Review](architecture/governance/architecture-review.md).
+- Exceptions are recorded in [Waivers](architecture/governance/waivers.md), not hidden in meeting notes.
+- Architecture-significant changes after approval are handled through [Change Control](architecture/governance/change-control.md).
 
 ## Decision Status Values
 

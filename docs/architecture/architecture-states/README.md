@@ -9,6 +9,7 @@ Use this page for:
 - baseline and target definitions
 - transition architecture rules
 - gap analysis and traceability
+- architecture risk tracking
 
 Avoid:
 - pretending a complete baseline exists when only current-state evidence is available
@@ -25,6 +26,7 @@ Architecture state pages explain what exists now, what should exist, how the arc
 | Target | A named future architecture accepted or under review. | Product target, migration target, pilot target, production target. |
 | Transition | An intermediate architecture state between baseline and target. | Migration increments, release stages, staged rollout. |
 | Gap Analysis | Structured comparison between baseline and target. | Work package discovery, risk tracking, readiness planning. |
+| Risk | Uncertain event or condition that can affect architecture outcomes. | Residual risk review, mitigation ownership, acceptance decisions. |
 
 ## Versioning Rules
 
@@ -41,3 +43,4 @@ Architecture state pages explain what exists now, what should exist, how the arc
 - [Transition Architectures](architecture/architecture-states/transition-architectures.md)
 - [Architecture Version Register](architecture/architecture-states/architecture-version-register.md)
 - [Gap Analysis](architecture/architecture-states/gap-analysis.md)
+- [Risk Register](architecture/architecture-states/risk-register.md)

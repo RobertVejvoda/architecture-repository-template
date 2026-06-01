@@ -7,6 +7,7 @@ Describe how architecture is reviewed, changed, and governed over time.
 Use this page for:
 - governance overview
 - architecture review process
+- architecture contract and conformance expectations
 - change control
 - waiver handling
 - decision ownership
@@ -29,7 +30,8 @@ Avoid:
 
 ## Contents
 
-- [Architecture Board](architecture-board.md)
-- [Architecture Review](architecture-review.md)
-- [Change Control](change-control.md)
-- [Waivers](waivers.md)
+- [Architecture Board](architecture/governance/architecture-board.md)
+- [Architecture Review](architecture/governance/architecture-review.md)
+- [Architecture Contract](architecture/governance/architecture-contract.md)
+- [Change Control](architecture/governance/change-control.md)
+- [Waivers](architecture/governance/waivers.md)

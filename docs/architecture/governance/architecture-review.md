@@ -26,7 +26,7 @@ Avoid:
 
 ## ADM Phase Review Gates
 
-Use [TOGAF ADM Checklist](../adm-checklist.md) as the phase readiness tool. This page defines how the review is run and what evidence reviewers should expect.
+Use [TOGAF ADM Checklist](architecture/adm-checklist.md) as the phase readiness tool. This page defines how the review is run and what evidence reviewers should expect.
 
 | Gate | Review Focus | Typical Evidence |
 | --- | --- | --- |
