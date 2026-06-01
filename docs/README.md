@@ -10,6 +10,7 @@ This page tracks the version of the template document structure itself. Project-
 
 | Version | Date | Status | Summary | Migration Notes |
 | --- | --- | --- | --- | --- |
+| 0.7 | 2026-06-01 | Draft | Linked ADM checklist review gates to Architecture Review and Architecture Board governance. | Use the ADM checklist as the working readiness tool, Architecture Review as the review process, and Architecture Board as the decision owner. |
 | 0.6 | 2026-05-31 | Draft | Replaced thin placeholder rows with three meaningful sample rows across architecture artifacts. | Template users should keep sample rows until they can replace them with project-specific content, then preserve at least three representative rows where the pattern is not obvious. |
 | 0.5 | 2026-05-31 | Draft | Added artifact metadata to major architecture artifacts, an Architecture Board page, and FairSpot requirement-to-gap/work-package examples. | Repositories using the template should keep decisions in the decision log, define board governance separately, and trace requirements to phase impacts, gaps, and work packages. |
 | 0.4 | 2026-05-31 | Draft | Added cross-phase Requirements Management guidance with a FairSpot-style example. | Requirements should be generic and centrally tracked, then interpreted by each affected ADM phase with evidence and gaps. |
