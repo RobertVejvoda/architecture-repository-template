@@ -10,6 +10,7 @@ This page tracks the version of the template document structure itself. Project-
 
 | Version | Date | Status | Summary | Migration Notes |
 | --- | --- | --- | --- | --- |
+| 0.9 | 2026-06-01 | Draft | Limited metadata tables to top-level section pages and the artifact register. | Track detailed child artifacts from the Artifact Register instead of repeating metadata on every page. |
 | 0.8 | 2026-06-01 | Draft | Added standards catalog, glossary, constraints, risk register, and architecture contract. | Use these artifacts to make approved choices, shared language, solution limits, non-security risks, and delivery conformance explicit. |
 | 0.7 | 2026-06-01 | Draft | Linked ADM checklist review gates to Architecture Review and Architecture Board governance. | Use the ADM checklist as the working readiness tool, Architecture Review as the review process, and Architecture Board as the decision owner. |
 | 0.6 | 2026-05-31 | Draft | Replaced thin placeholder rows with three meaningful sample rows across architecture artifacts. | Template users should keep sample rows until they can replace them with project-specific content, then preserve at least three representative rows where the pattern is not obvious. |
