@@ -25,9 +25,9 @@ The checklist is the operational readiness tool. Formal acceptance, when needed,
 - [ ] What are the guiding architecture principles? → [Principles](principles.md)
 - [ ] What tools, formats, and review process will be used? → [Architecture Review](governance/architecture-review.md)
 
-**Review gate:** Governance model, decision recording, and review ownership are clear enough for the Architecture Board or accountable owner to accept.
+- [ ] **Review gate:** Governance model, decision recording, and review ownership are clear enough for the Architecture Board or accountable owner to accept.
 
-**Done when:** Team agrees on how decisions are made and recorded.
+- [ ] **Done when:** Team agrees on how decisions are made and recorded.
 
 ---
 
@@ -40,9 +40,9 @@ The checklist is the operational readiness tool. Formal acceptance, when needed,
 - [ ] What are the key constraints (time, budget, regulation, existing systems)?
 - [ ] What does success look like?
 
-**Review gate:** Sponsor/product owner confirms the architecture vision is directionally correct and material concerns are captured.
+- [ ] **Review gate:** Sponsor/product owner confirms the architecture vision is directionally correct and material concerns are captured.
 
-**Done when:** Sponsor or product owner can read the vision and confirm it matches their intent.
+- [ ] **Done when:** Sponsor or product owner can read the vision and confirm it matches their intent.
 
 ---
 
@@ -55,9 +55,9 @@ The checklist is the operational readiness tool. Formal acceptance, when needed,
 - [ ] Who are the actors (users, systems, organisations) involved? → [Actors and Roles](business/actors-roles.md)
 - [ ] Are there relevant policies or rules that constrain design? → [Policies](business/policies.md)
 
-**Review gate:** Business owner confirms capabilities, actors, policies, and major processes reflect the intended business model.
+- [ ] **Review gate:** Business owner confirms capabilities, actors, policies, and major processes reflect the intended business model.
 
-**Done when:** You can describe what the business does without referencing any technology.
+- [ ] **Done when:** You can describe what the business does without referencing any technology.
 
 ---
 
@@ -69,9 +69,9 @@ The checklist is the operational readiness tool. Formal acceptance, when needed,
 - [ ] What are the key data entities and ownership rules? → [Data Architecture](information-systems/data-architecture.md)
 - [ ] How do systems integrate? What APIs and events are involved? → [Integrations and Events](information-systems/integrations-events.md), [API Contracts](information-systems/api-contracts.md)
 
-**Review gate:** Architecture owner confirms application boundaries, data ownership, APIs, and events satisfy the approved business architecture and requirements.
+- [ ] **Review gate:** Architecture owner confirms application boundaries, data ownership, APIs, and events satisfy the approved business architecture and requirements.
 
-**Done when:** A developer joining the team can understand system boundaries and data flows.
+- [ ] **Done when:** A developer joining the team can understand system boundaries and data flows.
 
 ---
 
@@ -83,9 +83,9 @@ The checklist is the operational readiness tool. Formal acceptance, when needed,
 - [ ] What are the technology standards and approved components? → [Deployment Profiles](technology/deployment-profiles.md)
 - [ ] How is the system observed in production? → [Observability](technology/observability.md)
 
-**Review gate:** Operations/security/platform representatives confirm runtime, deployment, observability, and security posture are realistic for the selected profile.
+- [ ] **Review gate:** Operations/security/platform representatives confirm runtime, deployment, observability, and security posture are realistic for the selected profile.
 
-**Done when:** Ops and platform teams can understand what they need to provision and support.
+- [ ] **Done when:** Ops and platform teams can understand what they need to provision and support.
 
 ---
 
@@ -98,9 +98,9 @@ The checklist is the operational readiness tool. Formal acceptance, when needed,
 - [ ] Identify gaps between baseline and target → [Gap Analysis](architecture-states/gap-analysis.md)
 - [ ] Define candidate solution increments or transition states → [Transition Architectures](architecture-states/transition-architectures.md)
 
-**Review gate:** Architecture Board or accountable owner accepts that material gaps, options, and transition candidates are visible enough for migration planning.
+- [ ] **Review gate:** Architecture Board or accountable owner accepts that material gaps, options, and transition candidates are visible enough for migration planning.
 
-**Done when:** You can explain the delta between now and the target, and name at least one realistic path.
+- [ ] **Done when:** You can explain the delta between now and the target, and name at least one realistic path.
 
 ---
 
@@ -113,9 +113,9 @@ The checklist is the operational readiness tool. Formal acceptance, when needed,
 - [ ] Assess team and organisational readiness → [Readiness](implementation-migration/readiness.md)
 - [ ] Tag architecture versions to delivery milestones → [Architecture Version Register](architecture-states/architecture-version-register.md)
 
-**Review gate:** Delivery lead and accountable owner confirm sequencing, dependencies, work packages, and readiness criteria are actionable.
+- [ ] **Review gate:** Delivery lead and accountable owner confirm sequencing, dependencies, work packages, and readiness criteria are actionable.
 
-**Done when:** Delivery lead can read the roadmap and plan sprints or quarters.
+- [ ] **Done when:** Delivery lead can read the roadmap and plan sprints or quarters.
 
 ---
 
@@ -127,9 +127,9 @@ The checklist is the operational readiness tool. Formal acceptance, when needed,
 - [ ] Are deviations from the architecture being tracked? → [Change Control](governance/change-control.md)
 - [ ] Are waivers being recorded with justification? → [Waivers](governance/waivers.md)
 
-**Review gate:** Architecture Review evidence proves implementation remains aligned, or deviations are captured as decisions, changes, gaps, or waivers.
+- [ ] **Review gate:** Architecture Review evidence proves implementation remains aligned, or deviations are captured as decisions, changes, gaps, or waivers.
 
-**Done when:** The team knows how to raise and resolve architecture issues without blocking delivery.
+- [ ] **Done when:** The team knows how to raise and resolve architecture issues without blocking delivery.
 
 ---
 
@@ -141,9 +141,9 @@ The checklist is the operational readiness tool. Formal acceptance, when needed,
 - [ ] Are exceptions and waivers time-boxed and reviewed? → [Waivers](governance/waivers.md)
 - [ ] Is the architecture version history up to date? → [Architecture Version Register](architecture-states/architecture-version-register.md)
 
-**Review gate:** Architecture Board or accountable owner confirms changes are assessed, versioned where needed, and reflected in affected artifacts.
+- [ ] **Review gate:** Architecture Board or accountable owner confirms changes are assessed, versioned where needed, and reflected in affected artifacts.
 
-**Done when:** Architecture changes go through a lightweight review rather than being silently adopted or ignored.
+- [ ] **Done when:** Architecture changes go through a lightweight review rather than being silently adopted or ignored.
 
 ---
 
@@ -157,7 +157,7 @@ The checklist is the operational readiness tool. Formal acceptance, when needed,
 
 **Tip:** Requirements Management is not a phase — keep it updated throughout the entire ADM cycle.
 
-**Review gate:** Every architecture-significant requirement has an owner, affected phase areas, evidence path, and gap/work item where it is not yet satisfied.
+- [ ] **Review gate:** Every architecture-significant requirement has an owner, affected phase areas, evidence path, and gap/work item where it is not yet satisfied.
 
 ---
 
@@ -165,10 +165,10 @@ The checklist is the operational readiness tool. Formal acceptance, when needed,
 
 A phase is good enough to move on when:
 
-- Key questions are answered (even if partially).
-- Assumptions and open questions are written down, not hidden.
-- At least one stakeholder from the relevant group has reviewed it.
-- The [Artifact Register](artifact-register.md) reflects current status.
-- The relevant review gate above is either accepted, explicitly deferred, or recorded as a gap/waiver.
+- [ ] Key questions are answered (even if partially).
+- [ ] Assumptions and open questions are written down, not hidden.
+- [ ] At least one stakeholder from the relevant group has reviewed it.
+- [ ] The [Artifact Register](artifact-register.md) reflects current status.
+- [ ] The relevant review gate above is either accepted, explicitly deferred, or recorded as a gap/waiver.
 
 You don't need perfect documentation. You need *enough* documentation that the next person can pick it up.
