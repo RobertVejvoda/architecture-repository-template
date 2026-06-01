@@ -29,7 +29,7 @@ Avoid:
 
 ## Section Metadata Standard
 
-Top-level section pages should start with a small metadata table. Detailed child artifacts should usually stay focused on their content and be tracked from this register instead of repeating the metadata block on every page.
+Top-level pages inside the Architecture Repository should start with a small metadata table. Detailed child artifacts should usually stay focused on their content and be tracked from this register instead of repeating the metadata block on every page.
 
 <table style="border:none;border-collapse:collapse;">
 <tr style="border:none;"><td style="border:none;padding:3px 16px 3px 0;"><strong>Status</strong></td><td style="border:none;padding:3px 0;">Draft / In Review / Approved / Baselined / Deprecated / Superseded</td></tr>
