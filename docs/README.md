@@ -10,6 +10,7 @@ This page tracks the version of the template document structure itself. Project-
 
 | Version | Date | Status | Summary | Migration Notes |
 | --- | --- | --- | --- | --- |
+| 1.0 | 2026-06-03 | Draft | Added viewpoint taxonomy, diagram placeholders, and abstract view/diagram versioning rules. | Use the central Views and Diagrams section to govern diagram lifecycle, while architecture sections link their related views without duplicating the diagram register. |
 | 0.9 | 2026-06-01 | Draft | Limited metadata tables to top-level Architecture Repository pages and the artifact register. | Track detailed child artifacts from the Artifact Register instead of repeating metadata on every page. |
 | 0.8 | 2026-06-01 | Draft | Added standards catalog, glossary, constraints, risk register, and architecture contract. | Use these artifacts to make approved choices, shared language, solution limits, non-security risks, and delivery conformance explicit. |
 | 0.7 | 2026-06-01 | Draft | Linked ADM checklist review gates to Architecture Review and Architecture Board governance. | Use the ADM checklist as the working readiness tool, Architecture Review as the review process, and Architecture Board as the decision owner. |
