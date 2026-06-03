@@ -17,11 +17,26 @@ Avoid:
 
 | Viewpoint | Audience | Concern Answered | Source |
 | --- | --- | --- | --- |
-| Business Capability View | Sponsor, business owner, architect | Which business capabilities are in scope and how mature or critical are they? | Business Architecture, Capabilities |
-| Application Cooperation View | Architect, delivery lead, integration owner | Which applications/services collaborate and where are the integration boundaries? | Application Architecture, Integrations and Events |
-| Deployment And Operations View | Operator, security reviewer, architecture board | How is the solution deployed, secured, monitored, and recovered in each profile? | Technology Architecture, Deployment Profiles, Readiness |
+| Business Capability View | Sponsor, business owner, architect | Which business capabilities are in scope and how mature or critical are they? | [Business Architecture](/architecture/business/), [Capabilities](/architecture/business/capabilities) |
+| Business Process View | Process owner, operations lead, auditor | How does an important business process flow across actors, decisions, events, and outcomes? | [Business Processes](/architecture/business/business-processes), [Actors and Roles](/architecture/business/actors-roles) |
+| Application Cooperation View | Architect, delivery lead, integration owner | Which applications/services collaborate and where are the integration boundaries? | [Application Architecture](/architecture/information-systems/application-architecture), [Integrations and Events](/architecture/information-systems/integrations-events) |
+| Data Flow View | Data owner, security reviewer, integrator | Which data flows cross applications, events, APIs, files, or external integrations? | [Data Architecture](/architecture/information-systems/data-architecture), [Integrations and Events](/architecture/information-systems/integrations-events) |
+| Deployment View | Operator, security reviewer, architecture board | Where does the solution run, and what platform, network, ingress, store, and observability boundaries exist? | [Technology Architecture](/architecture/technology/), [Deployment Profiles](/architecture/technology/deployment-profiles) |
+| Security And Privacy View | Security reviewer, privacy reviewer, architecture board | Which controls, personal-data boundaries, risks, and gaps matter for the architecture decision? | [Security Architecture](/architecture/security/), [Privacy Architecture](/architecture/security/privacy-architecture), [Controls](/architecture/security/controls) |
 
-## Viewpoint Groups
+## How To Use This Catalog
+
+Use the catalog as a navigation aid, not as a mandatory list of diagrams.
+
+| Step | Action | Example |
+| --- | --- | --- |
+| 1 | Start with a stakeholder question. | "Which capabilities are in scope?" |
+| 2 | Pick the smallest viewpoint that answers it. | Business Capability View |
+| 3 | Follow the source architecture content. | Capabilities |
+| 4 | Open or create the matching diagram only if a visual view helps. | Capability Map |
+| 5 | Track the diagram lifecycle in [Diagrams](/architecture/views/diagrams). | Version, status, source, export, supported architecture version. |
+
+## Architecture Areas
 
 | Group | Architecture Area | Typical Questions |
 | --- | --- | --- |
@@ -30,7 +45,9 @@ Avoid:
 | Application Architecture | [Information Systems Architecture](/architecture/information-systems/) | Which applications support business processes/functions, and how do applications exchange data or serve use cases? |
 | Technology Architecture | [Technology Architecture](/architecture/technology/) | Where does the solution run, which nodes/components are deployed, and what platform boundaries exist? |
 
-## Detailed Viewpoint Catalog
+## Optional Viewpoint Examples
+
+Add these only when a real stakeholder question needs them.
 
 | Viewpoint | Group | Audience | Concern Answered | Owning Artifact | Typical Diagram |
 | --- | --- | --- | --- | --- | --- |

@@ -17,7 +17,7 @@ Avoid:
 
 <table style="border:none;border-collapse:collapse;">
 <tr style="border:none;"><td style="border:none;padding:3px 16px 3px 0;"><strong>Status</strong></td><td style="border:none;padding:3px 0;">Draft</td></tr>
-<tr style="border:none;"><td style="border:none;padding:3px 16px 3px 0;"><strong>Version</strong></td><td style="border:none;padding:3px 0;">0.2</td></tr>
+<tr style="border:none;"><td style="border:none;padding:3px 16px 3px 0;"><strong>Version</strong></td><td style="border:none;padding:3px 0;">0.3</td></tr>
 <tr style="border:none;"><td style="border:none;padding:3px 16px 3px 0;"><strong>Architecture State</strong></td><td style="border:none;padding:3px 0;">Cross-cutting</td></tr>
 <tr style="border:none;"><td style="border:none;padding:3px 16px 3px 0;"><strong>ADM Phase</strong></td><td style="border:none;padding:3px 0;">Cross-ADM</td></tr>
 <tr style="border:none;"><td style="border:none;padding:3px 16px 3px 0;"><strong>Responsible</strong></td><td style="border:none;padding:3px 0;">Architecture Owner</td></tr>
@@ -42,6 +42,8 @@ Views and diagrams are versioned separately from the architecture pages they sup
 | Architecture pages link related views | Architecture pages should reference relevant diagrams through a `Related Views` section, but should not duplicate the central diagram registry. |
 | Text wins unless a diagram is authoritative | If a diagram is older than the architecture text, the architecture text is authoritative unless the diagram is explicitly marked authoritative for the named architecture version. |
 | Source and export must stay traceable | A diagram row should identify both the editable source and the rendered export when both exist. |
+
+Add viewpoints only when they answer a real stakeholder concern. A project does not need every possible diagram type.
 
 ## Diagram Status Values
 

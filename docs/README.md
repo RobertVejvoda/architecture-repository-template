@@ -10,6 +10,7 @@ This page tracks the version of the template document structure itself. Project-
 
 | Version | Date | Status | Summary | Migration Notes |
 | --- | --- | --- | --- | --- |
+| 1.1 | 2026-06-03 | Draft | Simplified the default viewpoint catalog around stakeholder-question navigation and reduced starter diagram placeholders. | Treat the catalog as a lightweight navigation aid; add optional viewpoints only when a real stakeholder concern needs them. |
 | 1.0 | 2026-06-03 | Draft | Added viewpoint taxonomy, diagram placeholders, and abstract view/diagram versioning rules. | Use the central Views and Diagrams section to govern diagram lifecycle, while architecture sections link their related views without duplicating the diagram register. |
 | 0.9 | 2026-06-01 | Draft | Limited metadata tables to top-level Architecture Repository pages and the artifact register. | Track detailed child artifacts from the Artifact Register instead of repeating metadata on every page. |
 | 0.8 | 2026-06-01 | Draft | Added standards catalog, glossary, constraints, risk register, and architecture contract. | Use these artifacts to make approved choices, shared language, solution limits, non-security risks, and delivery conformance explicit. |
