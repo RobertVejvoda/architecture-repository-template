@@ -29,7 +29,16 @@ Avoid:
 
 ## Contents
 
-- [Runtime Platform](architecture/technology/runtime-platform.md)
-- [Deployment Profiles](architecture/technology/deployment-profiles.md)
-- [Technology Standards](architecture/technology/standards.md)
-- [Observability](architecture/technology/observability.md)
+- [Runtime Platform](/architecture/technology/runtime-platform)
+- [Deployment Profiles](/architecture/technology/deployment-profiles)
+- [Technology Standards](/architecture/technology/standards)
+- [Observability](/architecture/technology/observability)
+
+## Requirement Coverage
+
+Use this section to show how Technology Architecture interprets central requirements from [Requirements Management](/architecture/requirements). Keep non-functional requirement ownership central; record runtime, platform, deployment, observability, backup, and operational consequences here.
+
+| Requirement | Technology Interpretation | Impacted Artifacts | Evidence / Gap |
+| --- | --- | --- | --- |
+| AR-002 | Operational state needed for pilot or production must survive restart and have backup/restore evidence. | Runtime Platform, Deployment Profiles, Observability. | Validate state-store profile, backup/restore procedure, and restore evidence. |
+| AR-003 | Public-facing surfaces must be protected by an approved ingress, identity, logging, and abuse-prevention profile. | Deployment Profiles, Technology Standards, Observability. | Prove the selected ingress/WAF/auth profile before production use. |

@@ -27,16 +27,16 @@ Avoid:
 
 ## Contents
 
-- [Application Architecture](architecture/information-systems/application-architecture.md)
-- [Data Architecture](architecture/information-systems/data-architecture.md)
-- [Integrations and Events](architecture/information-systems/integrations-events.md)
-- [Service Catalog](architecture/information-systems/service-catalog.md)
-- [API Contracts](architecture/information-systems/api-contracts.md)
+- [Application Architecture](/architecture/information-systems/application-architecture)
+- [Data Architecture](/architecture/information-systems/data-architecture)
+- [Integrations and Events](/architecture/information-systems/integrations-events)
+- [Service Catalog](/architecture/information-systems/service-catalog)
+- [API Contracts](/architecture/information-systems/api-contracts)
 
-## Requirement Interpretation Sample
+## Requirement Coverage
 
-Use this section to show how Information Systems Architecture interprets central requirements from [Requirements Management](architecture/requirements.md). Keep the central statement stable and record application/data/API/event consequences here.
+Use this section to show how Information Systems Architecture interprets central requirements from [Requirements Management](/architecture/requirements). Keep the central statement stable and record application, data, API, integration, event, and read-model consequences here.
 
-| Requirement | Information Systems Interpretation | Evidence | Gap |
+| Requirement | Information Systems Interpretation | Impacted Artifacts | Evidence / Gap |
 | --- | --- | --- | --- |
 | AR-FS-001 | FairSpot sample: APIs derive tenant/user from authenticated context; owning services store tenant-scoped data; events and read models carry tenant context safely. | Application Architecture, Data Architecture, API Contracts, Integrations and Events. | Prove read-model projection isolation. |

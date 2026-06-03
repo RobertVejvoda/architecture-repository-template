@@ -29,16 +29,16 @@ Business architecture explains what the organization needs to do and why it matt
 
 ## Contents
 
-- [Capabilities](architecture/business/capabilities.md)
-- [Value Streams](architecture/business/value-streams.md)
-- [Actors and Roles](architecture/business/actors-roles.md)
-- [Business Processes](architecture/business/business-processes.md)
-- [Policies](architecture/business/policies.md)
+- [Capabilities](/architecture/business/capabilities)
+- [Value Streams](/architecture/business/value-streams)
+- [Actors and Roles](/architecture/business/actors-roles)
+- [Business Processes](/architecture/business/business-processes)
+- [Policies](/architecture/business/policies)
 
-## Requirement Interpretation Sample
+## Requirement Coverage
 
-Use this section to show how Business Architecture interprets central requirements from [Requirements Management](architecture/requirements.md). Do not duplicate the central requirement as a new competing requirement.
+Use this section to show how Business Architecture interprets central requirements from [Requirements Management](/architecture/requirements). Do not duplicate the central requirement as a new competing requirement. Keep ownership and lifecycle in Requirements Management; record business interpretation, impact, and evidence here.
 
-| Requirement | Business Interpretation | Evidence | Gap |
+| Requirement | Business Interpretation | Impacted Artifacts | Evidence / Gap |
 | --- | --- | --- | --- |
 | AR-FS-001 | FairSpot sample: business roles and processes must not expose or act on another tenant's requests, people, policy, or reports. | Actors and Roles, Business Processes, Policies. | Validate privileged support/HR actions against tenant boundary. |

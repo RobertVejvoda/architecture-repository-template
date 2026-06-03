@@ -30,8 +30,17 @@ Avoid:
 
 ## Contents
 
-- [Architecture Board](architecture/governance/architecture-board.md)
-- [Architecture Review](architecture/governance/architecture-review.md)
-- [Architecture Contract](architecture/governance/architecture-contract.md)
-- [Change Control](architecture/governance/change-control.md)
-- [Waivers](architecture/governance/waivers.md)
+- [Architecture Board](/architecture/governance/architecture-board)
+- [Architecture Review](/architecture/governance/architecture-review)
+- [Architecture Contract](/architecture/governance/architecture-contract)
+- [Change Control](/architecture/governance/change-control)
+- [Waivers](/architecture/governance/waivers)
+
+## Requirement Coverage
+
+Use this section to show how Governance interprets central requirements from [Requirements Management](/architecture/requirements). Governance does not redefine the requirement; it defines review, conformance, waiver, and change-control expectations.
+
+| Requirement | Governance Interpretation | Impacted Artifacts | Evidence / Gap |
+| --- | --- | --- | --- |
+| AR-001 | Reviews must verify that role and organizational scope are covered by architecture artifacts and implementation evidence. | Architecture Review, Architecture Contract, Waivers. | Require explicit waiver or finding for missing authorization evidence. |
+| AR-003 | Public-facing ingress, identity, logging, and abuse-prevention choices need architecture review before approval. | Architecture Board, Architecture Review, Change Control. | Record approval, residual risk, or waiver before go-live. |
