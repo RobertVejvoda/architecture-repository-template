@@ -28,5 +28,29 @@ Avoid:
 
 ## Contents
 
-- [Viewpoint Catalog](architecture/views/viewpoint-catalog.md)
-- [Diagrams](architecture/views/diagrams.md)
+- [Viewpoint Catalog](/architecture/views/viewpoint-catalog)
+- [Diagrams](/architecture/views/diagrams)
+
+## View Versioning Rules
+
+Views and diagrams are versioned separately from the architecture pages they support.
+
+| Rule | Meaning |
+| --- | --- |
+| Architecture artifact owns the reviewed narrative | Business, information systems, technology, security, and other architecture pages own the accepted architecture text and metadata. |
+| Diagram catalog owns diagram lifecycle | [Diagrams](/architecture/views/diagrams) tracks diagram version, status, source, export, owner, review date, and supported architecture version. |
+| Architecture pages link related views | Architecture pages should reference relevant diagrams through a `Related Views` section, but should not duplicate the central diagram registry. |
+| Text wins unless a diagram is authoritative | If a diagram is older than the architecture text, the architecture text is authoritative unless the diagram is explicitly marked authoritative for the named architecture version. |
+| Source and export must stay traceable | A diagram row should identify both the editable source and the rendered export when both exist. |
+
+## Diagram Status Values
+
+| Status | Meaning |
+| --- | --- |
+| Placeholder | A diagram is needed but does not yet exist or has not been refreshed. |
+| Source Evidence | Existing historical diagram or model that can inform target architecture but is not authoritative. |
+| Draft | Diagram exists but has not been reviewed or approved. |
+| In Review | Diagram is ready for stakeholder or architecture review. |
+| Approved | Diagram is accepted for its stated scope. |
+| Authoritative | Diagram is approved as a source of truth for a named architecture version. |
+| Superseded | Diagram has been replaced by a newer diagram or version. |
