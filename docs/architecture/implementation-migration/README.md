@@ -28,7 +28,16 @@ Avoid:
 
 ## Contents
 
-- [Roadmap](architecture/implementation-migration/roadmap.md)
-- [Transition Architectures](architecture/implementation-migration/transition-architectures.md)
-- [Work Packages](architecture/implementation-migration/work-packages.md)
-- [Readiness](architecture/implementation-migration/readiness.md)
+- [Roadmap](/architecture/implementation-migration/roadmap)
+- [Transition Architectures](/architecture/implementation-migration/transition-architectures)
+- [Work Packages](/architecture/implementation-migration/work-packages)
+- [Readiness](/architecture/implementation-migration/readiness)
+
+## Requirement Coverage
+
+Use this section to show how Implementation and Migration interprets central requirements from [Requirements Management](/architecture/requirements). Requirements become work packages, readiness evidence, release checks, accepted risks, or deferred gaps here.
+
+| Requirement | Implementation / Migration Interpretation | Impacted Artifacts | Evidence / Gap |
+| --- | --- | --- | --- |
+| AR-002 | Restart-safe operational state must be validated through work packages and readiness evidence before pilot or production handoff. | Roadmap, Work Packages, Readiness. | Link restore evidence, smoke results, and residual risk decisions. |
+| AR-FS-001 | FairSpot sample: tenant isolation must be proven by implementation tests and release validation before customer data is used. | Work Packages, Readiness, Architecture Contract. | Link tenant-isolation test evidence and release validation findings. |
