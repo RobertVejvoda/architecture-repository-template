@@ -6,11 +6,13 @@ The template is documentation-first. It gives teams a place to record architectu
 
 ## Use This Template
 
-1. Copy the `docs/` directory into your project or use this repository as a starting point.
+1. Click **Use this template** on GitHub, copy the `docs/` directory into your project, or use this repository as a starting point.
 2. Replace placeholder guidance with project-specific content.
 3. Keep architecture decisions in version control and review them through pull requests.
 4. Keep implementation evidence separate from target architecture unless it is needed for architecture governance.
 5. Use candidate architectures, change sets, governance log items, gaps, risks, and waivers to keep architecture meaning traceable without turning the repository into a task tracker.
+
+Several example diagrams use FairSpot parking-domain terms. Treat them as sample content that demonstrates the architecture pattern, then replace those terms with your own domain language.
 
 ## Structure
 

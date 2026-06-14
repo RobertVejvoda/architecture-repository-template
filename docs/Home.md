@@ -23,4 +23,5 @@ Use it to structure architecture content around stakeholder concerns, ADM phases
 - Record durable decisions explicitly.
 - Keep diagrams indexed from one place.
 - Separate target architecture from implementation evidence.
+- Treat FairSpot/Parking diagram content as sample-domain material and replace it with your project language.
 - Delete template guidance only after replacing it with project-specific content.

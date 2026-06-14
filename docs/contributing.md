@@ -8,7 +8,7 @@ This guide is for anyone who wants to understand how this documentation site wor
 
 This is a [Docsify](https://docsify.js.org/) documentation site. Docsify renders Markdown files directly in the browser — there is no build step. The site is hosted on GitHub Pages from the `docs/` folder of this repository.
 
-- **Live site:** https://www.vejvoda.net/architecture-repository-template/
+- **Live site:** https://robertvejvoda.github.io/architecture-repository-template/
 - **Source files:** `docs/` folder in this repository
 - **Entry point:** `docs/index.html` (Docsify config) + `docs/README.md` (home page content)
 - **Sidebar:** `docs/_sidebar.md` — defines all navigation links

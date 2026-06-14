@@ -51,4 +51,5 @@ This page tracks the version of the template document structure itself. Project-
 - Separate target architecture from implementation evidence.
 - Use candidate architecture records before promoting unvalidated options to target or transition architecture.
 - Use architecture change sets when a material change affects several artifacts.
+- Treat FairSpot/Parking diagram content as sample-domain material and replace it with your project language.
 - Delete template guidance only after replacing it with project-specific content.
