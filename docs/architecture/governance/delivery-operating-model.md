@@ -44,6 +44,33 @@ This page defines governance expectations that any selected option must satisfy 
 | Handover | Show that accountable staff can build, deploy, monitor, support, and change the capability. |
 | Supplier transition | Record remaining operational, licensing, access, data, or knowledge dependency on external staff. |
 
+## Scrum Team Guidance
+
+Scrum is a delivery execution model. TOGAF is an architecture governance and decision model. They should reinforce each other: architecture provides guardrails and traceability, while Scrum delivers increments and exposes implementation feedback.
+
+| TOGAF / Architecture Concern | Scrum Reflection |
+| --- | --- |
+| Architecture Vision | Product vision, goals, roadmap themes, and desired outcomes. |
+| Architecture Requirements | Backlog items, acceptance criteria, quality attributes, and enabler work. |
+| Target Architecture | Architectural runway, guardrails, reference designs, and accepted target-state constraints. |
+| Gap Analysis | Epics, enablers, technical debt, migration tasks, risks, and dependency work. |
+| Work Packages / Roadmap | Epics, releases, increments, milestones, or sprintable vertical slices. |
+| Architecture Governance | Definition of Ready, Definition of Done, architecture review, conformance checks, and accepted waivers. |
+| Change Management | Backlog refinement, implementation feedback, operating feedback, and architecture change sets. |
+
+Scrum backlog items are not the architecture source of truth. Architecture-significant requirements, decisions, constraints, target states, risks, gaps, controls, waivers, and conformance expectations belong in the architecture repository and should be linked from delivery work.
+
+Watch for these failure modes:
+
+- treating sprint tickets as durable architecture decisions;
+- hiding non-functional requirements inside user stories without central traceability;
+- letting each sprint make local architecture choices that drift from the target state;
+- using architecture as a one-time upfront phase and then ignoring implementation feedback;
+- skipping architecture governance because the team is Agile;
+- making architects external approvers instead of continuous contributors to refinement, review, and acceptance.
+
+For Scrum teams, a delivery slice is ready when the relevant architecture guardrails are known or explicitly marked as open questions. A slice is done when it works, has evidence, and conforms to the accepted architecture or has an accepted waiver.
+
 ## Acceptance Gate
 
 Delivered scope should not be accepted for production use until:
