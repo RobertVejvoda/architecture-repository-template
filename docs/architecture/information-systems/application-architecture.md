@@ -2,21 +2,19 @@
 
 <!--
 Purpose:
-Describe applications, bounded contexts, modules, and their responsibilities.
-
-Use this page for:
-- application components
-- service boundaries
-- ownership and responsibilities
-- main user-facing applications
-
-Avoid:
-- deployment topology
-- class-level design
+Describe application and service responsibilities, ownership, and boundaries.
 -->
 
-| Application / Component | Responsibility | Owner | Interfaces |
+| Application / Service | Responsibility | Domain / Context | Interfaces |
 | --- | --- | --- | --- |
-| Customer / Tenant Service | Owns tenant lifecycle, readiness state, and onboarding metadata. | Customer domain | Admin API, readiness events |
-| Booking / Allocation Service | Owns request commands, allocation state, policy decisions, and lifecycle events. | Core product domain | User API, operations API, domain events |
-| DataHub / Read Model Service | Owns cross-service read models, projection health, and aggregate query surfaces. | Architecture / analytics domain | Query API, event subscriptions |
+| Identity / Access Service | Owns authentication integration, actor context, and authorization inputs. | Identity and access | Auth callbacks, token claims, user/context APIs |
+| Core Domain Service | Owns the main business commands, lifecycle state, and domain events. | Core domain | User APIs, operations APIs, domain events |
+| Read Model / Reporting Service | Owns approved read views, projections, report definitions, and export boundaries. | Data and reporting | Query APIs, projection events, report APIs |
+| Notification / Communication Service | Owns outbound communication templates, delivery requests, and notification evidence. | Communication | Notification API, delivery events |
+| Audit Service | Owns audit event capture and reviewable evidence. | Audit and evidence | Audit event API, audit queries |
+
+## Boundary Rules
+
+- Each authoritative write model has one owner.
+- Cross-service reads use APIs, events, or approved read models.
+- Hidden database coupling must be recorded as a gap, decision, or waiver.

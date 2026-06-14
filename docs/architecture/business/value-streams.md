@@ -2,21 +2,15 @@
 
 <!--
 Purpose:
-Show how stakeholders receive value through a sequence of business activities.
-
-Use this page for:
-- value stream diagrams or tables
-- participating actors
-- outcome measures
-- links to capabilities and processes
-
-Avoid:
-- implementation workflows
-- system sequence diagrams
+Show how value flows from trigger to outcome.
 -->
 
-| Value Stream | Trigger | Outcome | Key Capabilities |
+| Value Stream | Trigger | Outcome | Related Capabilities |
 | --- | --- | --- | --- |
-| Onboard Customer | Signed pilot or customer agreement. | Tenant is configured, validated, and ready for controlled use. | Tenant Onboarding, Identity Setup, Readiness Validation |
-| Request And Allocate Resource | User submits a request for a constrained resource. | User receives an accepted, allocated, waitlisted, or rejected outcome. | Resource Allocation, Policy Management, Notification |
-| Operate Service | Service is running for active users. | Operators and managers can detect issues, respond, and prove readiness. | Operational Oversight, Incident Response, Reporting |
+| Onboard Participant | A new person, organization, or context needs access to the solution. | Participant can use the approved capabilities. | Customer / User Management, Operations And Support |
+| Complete Core Outcome | A user or system starts the main business process. | The business outcome is accepted, rejected, completed, or routed for exception handling. | Core Domain Operation, Reporting And Insight |
+| Operate And Improve | Operating evidence, feedback, or risk requires attention. | Service quality, controls, and architecture evidence improve. | Operations And Support, Reporting And Insight |
+
+## Guidance
+
+Use value streams to explain business outcomes. Keep process detail in [Business Processes](/architecture/business/business-processes.md) and technical flow in the appropriate information systems or technology artifact.

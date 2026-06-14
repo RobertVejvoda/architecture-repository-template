@@ -24,11 +24,11 @@ Use this artifact when implementation work needs an explicit conformance baselin
 
 | Contract Item | Expected Conformance | Evidence | Exception Path | Owner |
 | --- | --- | --- | --- | --- |
-| Approved principles | Delivery choices should follow accepted [Principles](architecture/principles.md). | Pull request notes, decisions, review evidence. | Record a decision or [Waiver](architecture/governance/waivers.md). | Architecture Owner |
-| Approved technology standards | Runtime, API, event, observability, and ingress choices should follow [Technology Standards](architecture/technology/standards.md). | Architecture review, deployment profile, contract links. | Waiver or change request before production exposure. | Architecture Owner / Platform Owner |
+| Approved principles | Delivery choices should follow accepted [Principles](/architecture/principles.md). | Pull request notes, decisions, review evidence. | Record a decision or [Waiver](/architecture/governance/waivers.md). | Architecture Owner |
+| Approved technology standards | Runtime, API, event, observability, and ingress choices should follow [Technology Standards](/architecture/technology/standards.md). | Architecture review, deployment profile, contract links. | Waiver or change request before production exposure. | Architecture Owner / Platform Owner |
 | API and event contracts | Interfaces should match documented contracts and event ownership. | Contract evidence and compatibility note. | Change control if behavior or compatibility changes. | Architecture Owner |
-| Security and privacy controls | Controls should match [Security Architecture](architecture/security/security-architecture.md), [Privacy Architecture](architecture/security/privacy-architecture.md), and [Controls](architecture/security/controls.md). | Security review evidence and gap status. | Security waiver with owner and expiry. | Security Lead |
-| Residual risks and gaps | Open risks and gaps should have owner, mitigation, and review date. | [Risk Register](architecture/architecture-states/risk-register.md), [Gap Analysis](architecture/architecture-states/gap-analysis.md). | Architecture Board acceptance or rework. | Architecture Owner |
+| Security and privacy controls | Controls should match [Security Architecture](/architecture/security/security-architecture.md), [Privacy Architecture](/architecture/security/privacy-architecture.md), and [Controls](/architecture/security/controls.md). | Security review evidence and gap status. | Security waiver with owner and expiry. | Security Lead |
+| Residual risks and gaps | Open risks and gaps should have owner, mitigation, and review date. | [Risk Register](/architecture/architecture-states/risk-register.md), [Gap Analysis](/architecture/architecture-states/gap-analysis.md). | Architecture Board acceptance or rework. | Architecture Owner |
 
 ## Review Outcome
 

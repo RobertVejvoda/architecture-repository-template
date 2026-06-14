@@ -2,22 +2,13 @@
 
 <!--
 Purpose:
-Catalog services and their architecture responsibilities.
-
-Use this page for:
-- service name
-- business capability supported
-- owned data
-- APIs/events
-- operational criticality
-
-Avoid:
-- deployment instance lists
-- low-level endpoint documentation
+List services, their business capability mapping, owned data, interfaces, and criticality.
 -->
 
-| Service | Capability | Owns Data | Exposes | Criticality |
+| Service | Related Capability | Owned Data | Main Interfaces | Criticality |
 | --- | --- | --- | --- | --- |
-| Customer | Tenant Onboarding | Tenant lifecycle, readiness, setup metadata | Tenant/admin APIs, readiness events | High |
-| Booking | Resource Allocation | Requests, allocations, decisions, lifecycle events | User APIs, operations APIs, booking events | High |
-| DataHub | Operational Visibility | Read models, projection health, aggregate summaries | Query APIs, dashboard/report data | Medium/High |
+| Identity / Access | Customer / User Management | Actor context, identity references, authorization inputs | Auth integration, user/context APIs | High |
+| Core Domain | Core Domain Operation | Main domain records, lifecycle state, domain decisions | User APIs, operations APIs, domain events | High |
+| Read Model / Reporting | Reporting And Insight | Derived projections, report catalog/configuration | Query APIs, report exports, event consumers | Medium |
+| Notification | Operations And Support | Notification requests, templates, delivery evidence | Notification APIs, delivery events | Medium |
+| Audit | Operations And Support | Audit events and review evidence | Audit APIs, audit exports | High |

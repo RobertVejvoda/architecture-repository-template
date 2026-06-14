@@ -20,4 +20,9 @@ Avoid:
 | WP-001 Architecture Foundation | Establish repository structure, metadata, requirements, principles, and governance model. | Architecture Repository, Requirements, Governance, Artifact Register. | Metadata present, links valid, board/decision process reviewed. |
 | WP-002 Pilot Readiness | Close high-priority persistence, security, and operations gaps for a controlled pilot. | Gap Analysis, Security, Technology, Readiness, Deployment Profiles. | Smoke tests, security review, restore evidence, accepted waivers. |
 | WP-003 Read Model Foundation | Add event inbox, projection runtime, and first operational read models. | Information Systems, Data Architecture, Integrations and Events. | Idempotency tests, replay/retry evidence, projection health endpoint. |
-| WP-FS-001 FairSpot tenant readiness persistence | Make tenant onboarding/readiness state restart-safe and tenant-isolated for a hosted pilot. | Requirements `AR-FS-001`, Information Systems data ownership, Technology runtime/storage profile, Security tenant isolation, Gap `GAP-FS-001`. | Tests for tenant-scoped keys and no cross-tenant reads; restart/persistence evidence; architecture gap status updated when proven. |
+
+## Work Package Rules
+
+- Keep work packages architecture-relevant and coarse-grained.
+- Track detailed tasks, assignees, and sprint progress in the delivery tool.
+- Link work packages to requirements, gaps, risks, and readiness evidence.

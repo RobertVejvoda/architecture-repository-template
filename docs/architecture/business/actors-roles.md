@@ -2,21 +2,13 @@
 
 <!--
 Purpose:
-Identify business actors, personas, and role responsibilities.
-
-Use this page for:
-- business actors
-- role intent
-- responsibilities
-- high-level access expectations
-
-Avoid:
-- detailed IAM policy syntax
-- implementation-specific groups unless architecture-relevant
+Describe business actors and roles at the level needed for architecture decisions.
 -->
 
-| Actor / Role | Responsibilities | Concerns | Notes |
+| Actor / Role | Responsibility | Architecture-Significant Concerns | Notes |
 | --- | --- | --- | --- |
-| Employee / End User | Requests resources, views own status, and receives notifications. | Clear outcome, privacy, simple workflow. | Must not see other users' private data. |
-| Manager / Operations User | Reviews operational queues, exceptions, and service readiness. | Safe override actions, auditability, timely status. | Access should be scoped by organization or location. |
-| Administrator | Configures tenants, policies, integrations, and readiness checks. | Correct setup, traceability, rollback, supportability. | Privileged actions require audit evidence. |
+| End User | Uses the product or service to complete a business outcome. | Simple journey, correct authorization, understandable status, privacy. | Replace with project-specific user roles. |
+| Business Operator | Manages exceptions, operational rules, support actions, or approvals. | Auditability, segregation of duties, clear ownership, traceable changes. | Name specific operator roles when known. |
+| Administrator | Configures users, organizations, policies, integrations, or readiness checks. | Privileged access, rollback, validation, supportability. | Privileged actions require audit evidence. |
+| Sponsor / Owner | Funds or accepts architecture direction and trade-offs. | Value, risk, cost, timing, acceptance evidence. | Usually accountable for major target decisions. |
+| External Reviewer | Reviews architecture for security, compliance, operations, procurement, or customer acceptance. | Evidence, traceability, open gaps, residual risks. | Include only when relevant. |

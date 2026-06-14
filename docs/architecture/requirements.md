@@ -39,7 +39,7 @@ Keep requirement statements generic enough to remain stable. The affected phases
 | AR-001 | Users must only access data and actions permitted for their role and organizational scope. | Stakeholder/security concern | B, C, Security, G | Draft |
 | AR-002 | Operational state needed for pilot or production must survive restart and have backup/restore evidence. | Operations concern | C, D, E/F, G | Draft |
 | AR-003 | Public-facing surfaces must be protected by an approved ingress, identity, logging, and abuse-prevention profile. | Security/operations concern | C, D, Security, G | Draft |
-| AR-FS-001 | FairSpot sample: tenant data must be isolated across APIs, persistence, events, audit, and read models. | Customer/security concern | B, C, D, Security, G | Illustrative |
+| AR-004 | Architecture artifacts must separate target state from current-state evidence, gaps, risks, and delivery tasks. | Governance concern | Preliminary, E/F, G, H | Draft |
 
 ## Phase Impact Tracking
 
@@ -47,11 +47,11 @@ Use this table to show how one requirement is handled across phases. Link to the
 
 | Requirement | ADM Area | Phase Interpretation | Evidence | Gap / Work |
 | --- | --- | --- | --- | --- |
-| AR-FS-001 | Phase B - Business Architecture | Business roles and processes must not expose or act on another tenant's requests, people, policy, or reports. | Business roles, business processes, policies. | HR cancellation authorization validation. |
-| AR-FS-001 | Phase C - Information Systems | APIs derive tenant/user from authenticated context; services own tenant-scoped data; events and read models carry tenant context safely. | Application architecture, data architecture, API contracts, event contracts. | DataHub projection isolation evidence. |
-| AR-FS-001 | Phase D - Technology Architecture | Runtime components, state stores, pub/sub topics, secrets, and deployment profiles preserve tenant boundaries. | Runtime platform, deployment profiles. | Deployment-profile-specific component validation. |
-| AR-FS-001 | Security / Privacy | Authorization, audit, privacy, encryption, and data-minimisation controls protect tenant and employee data. | Security architecture, privacy architecture, controls. | Residual risk or waiver if any. |
-| AR-FS-001 | Phase G - Implementation Governance | PRs and validation evidence must show tenant-safe API, storage, event, and projection behavior. | Architecture review, readiness evidence, linked PRs. | Open implementation issue or failed validation if any. |
+| AR-001 | Phase B - Business Architecture | Business roles and processes must not expose data or actions outside permitted responsibility. | Business roles, business processes, policies. | Access model validation. |
+| AR-001 | Phase C - Information Systems | APIs derive user, organization, and role from trusted context; owning services store scoped data; events and read models carry scope safely. | Application architecture, data architecture, API contracts, event contracts. | Projection isolation evidence. |
+| AR-001 | Phase D - Technology Architecture | Runtime components, state stores, pub/sub topics, secrets, and deployment profiles preserve scope boundaries. | Runtime platform, deployment profiles. | Deployment-profile-specific component validation. |
+| AR-001 | Security / Privacy | Authorization, audit, privacy, encryption, and data-minimisation controls protect sensitive data. | Security architecture, privacy architecture, controls. | Residual risk or waiver if any. |
+| AR-001 | Phase G - Implementation Governance | PRs and validation evidence must show scoped API, storage, event, and projection behavior. | Architecture review, readiness evidence, linked PRs. | Open implementation issue or failed validation if any. |
 
 ## ADM Area Usage
 

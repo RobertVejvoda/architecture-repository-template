@@ -2,22 +2,17 @@
 
 <!--
 Purpose:
-Describe system interactions, integration contracts, event flows, and reliability expectations.
-
-Use this page for:
-- synchronous integrations
-- asynchronous events
-- event ownership
-- idempotency and ordering expectations
-- external systems
-
-Avoid:
-- duplicating full API specs
-- transport-specific details unless architecture-significant
+Describe integrations, event contracts, source/consumer responsibilities, and reliability expectations.
 -->
 
-| Integration / Event | Producer | Consumer | Purpose | Reliability Notes |
+| Integration / Event | Producer | Consumers | Purpose | Reliability Notes |
 | --- | --- | --- | --- | --- |
-| TenantReady | Customer / Tenant Service | Operations, DataHub, Notification | Announce that a tenant passed readiness and can receive controlled traffic. | Idempotent by event ID; consumers must tolerate duplicate delivery. |
-| RequestSubmitted | Booking / Allocation Service | DataHub, Notification, Audit | Project demand and notify interested actors. | At-least-once delivery; projection writes must be idempotent. |
-| AllocationChanged | Booking / Allocation Service | DataHub, Notification, Audit | Keep read models, notifications, and evidence aligned with allocation lifecycle. | Preserve event order per aggregate where required; retries must not duplicate side effects. |
+| ContextActivated | Identity / Access Service | Core Domain, Reporting, Audit | Announce that a user, organization, or operating context is ready for use. | Idempotent by event ID; consumers must tolerate duplicate delivery. |
+| DomainCommandAccepted | Core Domain Service | Read Model / Reporting, Notification, Audit | Project operational state and notify interested actors. | At-least-once delivery; projection writes must be idempotent. |
+| DomainOutcomeChanged | Core Domain Service | Read Model / Reporting, Notification, Audit | Keep read models, notifications, and evidence aligned with lifecycle changes. | Preserve event order per aggregate where required; retries must not duplicate side effects. |
+
+## Integration Rules
+
+- Record the producer and consumers for every architecture-significant event.
+- Record idempotency, ordering, retry, replay, and dead-letter expectations.
+- Link to API contracts or source definitions where available.

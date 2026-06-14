@@ -3,24 +3,13 @@
 <!--
 Purpose:
 Define the group that accepts architecture direction, validates phase readiness, and records durable decisions.
-
-Use this page for:
-- board membership and roles
-- quorum and decision rules
-- decision and review responsibilities
-- escalation and exception handling
-
-Avoid:
-- replacing the decision log
-- day-to-day delivery assignment
-- private personnel details that should not be public
 -->
 
 ## Purpose
 
 The Architecture Board provides the lightweight governance body for architecture-significant decisions, phase readiness validation, standards, exceptions, and change control.
 
-The board owns acceptance rules. The [TOGAF ADM Checklist](architecture/adm-checklist.md) is the working checklist for phase readiness, and [Architecture Review](architecture/governance/architecture-review.md) defines the review process.
+The board owns acceptance rules. The [TOGAF ADM Checklist](/architecture/adm-checklist.md) is the working checklist for phase readiness, and [Architecture Review](/architecture/governance/architecture-review.md) defines the review process.
 
 ## Membership
 
@@ -36,12 +25,13 @@ Replace the example roles with project-specific members or role names.
 
 ## Decision Rules
 
-- Durable architecture decisions are recorded in [Architecture Decisions](architecture/decisions.md).
+- Durable architecture decisions are recorded in [Architecture Decisions](/architecture/decisions.md).
+- Active board-level questions are tracked in [Architecture Governance Log](/architecture/governance/architecture-governance-log.md) until routed.
 - Each decision should identify the decision maker, date, status, rationale, alternatives considered, and affected artifacts.
 - Phase progression should not be treated as accepted until required artifacts are at `In Review` or stronger and material gaps are either planned, accepted, or closed.
-- Phase gates should use the review gates in [TOGAF ADM Checklist](architecture/adm-checklist.md) and record the outcome through [Architecture Review](architecture/governance/architecture-review.md).
-- Exceptions are recorded in [Waivers](architecture/governance/waivers.md), not hidden in meeting notes.
-- Architecture-significant changes after approval are handled through [Change Control](architecture/governance/change-control.md).
+- Phase gates should use the review gates in [TOGAF ADM Checklist](/architecture/adm-checklist.md) and record the outcome through [Architecture Review](/architecture/governance/architecture-review.md).
+- Exceptions are recorded in [Waivers](/architecture/governance/waivers.md), not hidden in meeting notes.
+- Material architecture changes after approval are handled through [Architecture Change Set](/architecture/governance/architecture-change-set.md) and [Change Control](/architecture/governance/change-control.md).
 
 ## Decision Status Values
 
@@ -55,16 +45,20 @@ Replace the example roles with project-specific members or role names.
 
 ## Review Cadence
 
-| Review Type | When | Evidence |
+| Moment | Practical Rhythm | Main Question |
 | --- | --- | --- |
-| Phase readiness review | Before moving to the next ADM phase or accepting a phase bundle. | Artifact metadata, gap analysis, requirements impact, decisions. |
-| Architecture change review | When an approved target, principle, standard, or requirement changes. | Change request, affected artifacts, decision record. |
-| Implementation conformance review | During Phase G or release readiness. | PR/release evidence, readiness checks, unresolved gaps. |
-| Periodic architecture review | Project-defined cadence or major business/technology trigger. | Updated artifact register and version register. |
+| Architecture assessment is active. | Every 2 weeks, or weekly if blocked. | Are target options, risks, gaps, and evidence moving? |
+| Things are stable. | Monthly or project-defined cadence. | Are there open decisions, risks, waivers, or changes needing attention? |
+| A phase gate or architecture version needs acceptance. | As needed. | Can this architecture state be accepted? |
+| A release or increment is approaching production. | At the release or increment gate. | Does it conform, and can the organization operate it? |
+| Something urgent appears. | Within a few business days, based on risk. | What decision or risk acceptance is needed? |
 
-## FairSpot Samples
+The board should produce one of these outputs:
 
-| Decision | Board Consideration | Recorded In |
-| --- | --- | --- |
-| Use Dapr-first runtime building blocks where they fit production needs. | Portability across NAS, demo, and future hosted profiles; need explicit gaps where Dapr features are unsupported or unvalidated. | Architecture Decisions, Runtime Platform, Gap Analysis. |
-| Track tenant isolation as a cross-phase architecture requirement. | Affects business processes, API contracts, persistence, events, read models, deployment profiles, security controls, and implementation review. | Requirements, phase artifacts, Gap Analysis, Work Packages. |
+- decision recorded in Decisions;
+- question left active in Governance Log;
+- risk recorded in Risk Register;
+- gap recorded in Gap Analysis;
+- exception recorded in Waivers;
+- change impact checked through Change Set;
+- delivery action sent to the delivery tool.

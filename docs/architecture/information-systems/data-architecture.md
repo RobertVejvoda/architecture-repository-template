@@ -2,22 +2,19 @@
 
 <!--
 Purpose:
-Describe business data, ownership, persistence, classification, and lifecycle.
-
-Use this page for:
-- conceptual data model
-- system of record
-- read models
-- retention and lifecycle
-- data classification
-
-Avoid:
-- full physical database schema unless architecture-relevant
-- temporary migration scripts
+Describe data ownership, classification, lifecycle, read models, and evidence needs.
 -->
 
-| Data Area | Owner | Classification | Lifecycle Notes |
-| --- | --- | --- | --- |
-| Tenant readiness state | Customer / Tenant Service | Internal / Confidential | Retained while tenant is active; archived or deleted according to contract. |
-| Resource requests and outcomes | Booking / Allocation Service | Confidential | Retained for operational, audit, and dispute windows. |
-| Projection summaries | DataHub / Read Model Service | Internal / Confidential | Rebuildable from events where event retention permits; freshness and lag tracked. |
+| Data Area | Owner | Classification | Lifecycle / Retention | Notes |
+| --- | --- | --- | --- | --- |
+| User and access context | Identity / Access Service | Confidential | Retained according to identity and audit requirements. | Use least privilege and scope-aware reads. |
+| Core domain records | Core Domain Service | Confidential | Retained for operational, audit, and dispute windows. | Authoritative writes belong to the owning service. |
+| Derived read models | Read Model / Reporting Service | Internal / Confidential | Rebuildable from source events or synchronized sources where possible. | Track freshness, lineage, and rebuild limits. |
+| Audit evidence | Audit Service | Confidential / Restricted | Retained according to legal, security, and operational policy. | Prevent modification by normal operators. |
+
+## Data Rules
+
+- Name the authoritative owner for each important data area.
+- Separate command/write data from derived read models.
+- Record retention, privacy, export, and deletion expectations.
+- Link gaps where persistence, restore, lineage, or freshness evidence is missing.

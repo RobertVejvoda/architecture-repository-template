@@ -8,13 +8,13 @@ Use it to structure architecture content around stakeholder concerns, ADM phases
 
 | Reader | Start here | Purpose |
 | --- | --- | --- |
-| Sponsor or product owner | [Architecture Vision](architecture/architecture-vision.md) | Understand the target outcome and business context. |
-| Architect | [Architecture Repository](architecture/README.md) and [ADM Map](architecture/togaf-adm-map.md) | Navigate architecture artifacts and ADM coverage. |
-| Business stakeholder | [Business Architecture](architecture/business/README.md) | Understand capabilities, value streams, actors, processes, and policies. |
-| Technical stakeholder | [Information Systems](architecture/information-systems/README.md) and [Technology](architecture/technology/README.md) | Understand applications, data, integrations, runtime, and deployment. |
-| Security reviewer | [Security Architecture](architecture/security/README.md) | Understand security, privacy, controls, and known gaps. |
-| Delivery lead | [Implementation And Migration](architecture/implementation-migration/README.md) | Understand roadmap, transition states, work packages, and readiness. |
-| Architecture governor | [Architecture States](architecture/architecture-states/README.md) and [Artifact Register](architecture/artifact-register.md) | Understand baseline/target versions, artifact status, and gaps. |
+| Sponsor or product owner | [Architecture Vision](/architecture/architecture-vision.md) | Understand the target outcome and business context. |
+| Architect | [Architecture Repository](/architecture/README.md) and [ADM Map](/architecture/togaf-adm-map.md) | Navigate architecture artifacts and ADM coverage. |
+| Business stakeholder | [Business Architecture](/architecture/business/README.md) | Understand capabilities, value streams, actors, processes, and policies. |
+| Technical stakeholder | [Information Systems](/architecture/information-systems/README.md) and [Technology](/architecture/technology/README.md) | Understand applications, data, integrations, runtime, and deployment. |
+| Security reviewer | [Security Architecture](/architecture/security/README.md) | Understand security, privacy, controls, and known gaps. |
+| Delivery lead | [Implementation And Migration](/architecture/implementation-migration/README.md) | Understand roadmap, transition states, work packages, and readiness. |
+| Architecture governor | [Architecture States](/architecture/architecture-states/README.md) and [Artifact Register](/architecture/artifact-register.md) | Understand baseline/target versions, artifact status, and gaps. |
 
 ## How To Use This Template
 

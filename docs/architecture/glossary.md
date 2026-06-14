@@ -1,46 +1,26 @@
-# Glossary
+# Architecture Glossary
 
 <!--
 Purpose:
-Define shared architecture and domain language so business, data, application, technology, and governance artifacts use the same terms.
+Keep shared architecture and domain terms consistent.
 
 Use this page for:
-- ubiquitous language
-- architecture terms with project-specific meaning
-- domain terms used across multiple artifacts
-- approved synonyms and terms to avoid
+- architecture vocabulary
+- domain terms with architecture meaning
+- terms that appear across multiple artifacts
 
 Avoid:
-- implementation-only class names
-- abbreviations that are not used in architecture communication
-- long conceptual essays better suited to layer artifacts
+- ordinary dictionary definitions
+- terms used only once
+- overloaded terms without usage guidance
 -->
 
-<table style="border:none;border-collapse:collapse;">
-<tr style="border:none;"><td style="border:none;padding:3px 16px 3px 0;"><strong>Status</strong></td><td style="border:none;padding:3px 0;">Draft</td></tr>
-<tr style="border:none;"><td style="border:none;padding:3px 16px 3px 0;"><strong>Version</strong></td><td style="border:none;padding:3px 0;">0.1</td></tr>
-<tr style="border:none;"><td style="border:none;padding:3px 16px 3px 0;"><strong>Architecture State</strong></td><td style="border:none;padding:3px 0;">Cross-cutting</td></tr>
-<tr style="border:none;"><td style="border:none;padding:3px 16px 3px 0;"><strong>ADM Phase</strong></td><td style="border:none;padding:3px 0;">Preliminary / Requirements Management</td></tr>
-<tr style="border:none;"><td style="border:none;padding:3px 16px 3px 0;"><strong>Responsible</strong></td><td style="border:none;padding:3px 0;">Architecture Owner</td></tr>
-<tr style="border:none;"><td style="border:none;padding:3px 16px 3px 0;"><strong>Accountable</strong></td><td style="border:none;padding:3px 0;">Architecture Board</td></tr>
-<tr style="border:none;"><td style="border:none;padding:3px 16px 3px 0;"><strong>Last Reviewed</strong></td><td style="border:none;padding:3px 0;">-</td></tr>
-<tr style="border:none;"><td style="border:none;padding:3px 16px 3px 0;"><strong>Next Review</strong></td><td style="border:none;padding:3px 0;">-</td></tr>
-</table>
-
-## Terms
-
-| Term | Meaning | Context | Preferred Usage | Avoid / Notes |
+| Term | Definition | Context | Use When | Avoid |
 | --- | --- | --- | --- | --- |
-| Architecture Board | Accountable governance group or named owner that accepts architecture decisions, review gates, and waivers. | Governance | Use when an architecture decision needs accountable acceptance. | Do not imply a large committee is required for small teams. |
-| Architecture-Significant Requirement | Requirement that can change architecture, integration, security, data ownership, runtime, or governance decisions. | Requirements Management | Track centrally in [Requirements](architecture/requirements.md), then interpret in affected phase artifacts. | Do not use for ordinary feature tasks with no architecture impact. |
-| Waiver | Time-boxed accepted deviation from an approved principle, standard, contract, or review gate. | Governance | Record in [Waivers](architecture/governance/waivers.md). | A waiver is not silent technical debt. |
-| FairSpot sample: Draw | Process that allocates limited parking capacity to eligible requests according to approved business rules. | Business / Application | Use consistently in business process, API, and event descriptions. | Avoid mixing Draw with generic booking confirmation. |
-| FairSpot sample: Allocation | Result of a Draw or direct rule that assigns a parking spot or capacity slot to a request. | Business / Data | Use for the assignment outcome, not the user request itself. | Keep separate from Booking Request. |
-
-## Term Lifecycle
-
-| Status | Meaning |
-| --- | --- |
-| Proposed | Term is being introduced and needs stakeholder agreement. |
-| Approved | Term should be used consistently in architecture artifacts. |
-| Deprecated | Term remains for history but should not be used in new content. |
+| Architecture Snapshot | Named set of artifact versions reviewed together as a baseline, target, or transition state. | Architecture States | Describing what was accepted together. | Treating a single page version as the whole architecture version. |
+| Candidate Architecture | Possible architecture option that is not yet accepted as target or transition architecture. | Architecture States | Comparing options or recording early solution shapes. | Presenting unvalidated ideas as accepted direction. |
+| Architecture Change Set | Impact-checked package of architecture updates caused by a material solution change. | Governance | A decision or requirement affects several artifacts. | Using it for spelling, formatting, or local wording edits. |
+| Architecture Governance Log | Active queue of board-level architecture questions awaiting routing. | Governance | A question may become a decision, risk, gap, waiver, change set, or delivery action. | Keeping resolved history in the active log. |
+| Architecture Contract | Conformance expectations used to verify delivery against accepted architecture. | Phase G | Implementation evidence needs architecture review. | Replacing procurement or legal contracts unless explicitly required. |
+| Gap | Difference between baseline/current evidence and the accepted or proposed target. | Architecture States | Something needed by the target is missing or incomplete. | Tracking ordinary backlog tasks without architecture impact. |
+| Waiver | Time-boxed accepted exception to a principle, standard, control, or requirement. | Governance | A requirement cannot be met now but is explicitly accepted for a scope and period. | Hiding exceptions in meeting notes. |

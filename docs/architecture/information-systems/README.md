@@ -2,16 +2,7 @@
 
 <!--
 Purpose:
-Describe application and data architecture for systems that support the business architecture.
-
-Use this page for:
-- application and data architecture overview
-- service and integration boundaries
-- links to APIs, events, and data models
-
-Avoid:
-- cloud provider deployment specifics
-- detailed operational runbooks
+Describe application, data, service, API, event, and integration architecture.
 -->
 
 <table style="border:none;border-collapse:collapse;">
@@ -27,16 +18,15 @@ Avoid:
 
 ## Contents
 
-- [Application Architecture](/architecture/information-systems/application-architecture)
-- [Data Architecture](/architecture/information-systems/data-architecture)
-- [Integrations and Events](/architecture/information-systems/integrations-events)
-- [Service Catalog](/architecture/information-systems/service-catalog)
-- [API Contracts](/architecture/information-systems/api-contracts)
+- [Application Architecture](/architecture/information-systems/application-architecture.md)
+- [Data Architecture](/architecture/information-systems/data-architecture.md)
+- [Integrations and Events](/architecture/information-systems/integrations-events.md)
+- [Service Catalog](/architecture/information-systems/service-catalog.md)
+- [API Contracts](/architecture/information-systems/api-contracts.md)
 
 ## Requirement Coverage
 
-Use this section to show how Information Systems Architecture interprets central requirements from [Requirements Management](/architecture/requirements). Keep the central statement stable and record application, data, API, integration, event, and read-model consequences here.
-
 | Requirement | Information Systems Interpretation | Impacted Artifacts | Evidence / Gap |
 | --- | --- | --- | --- |
-| AR-FS-001 | FairSpot sample: APIs derive tenant/user from authenticated context; owning services store tenant-scoped data; events and read models carry tenant context safely. | Application Architecture, Data Architecture, API Contracts, Integrations and Events. | Prove read-model projection isolation. |
+| AR-001 | APIs derive actor and scope from trusted context; owning services store scoped data; events and read models carry scope safely. | Application Architecture, Data Architecture, API Contracts, Integrations and Events. | Prove read-model and integration scope boundaries. |
+| AR-002 | Operational state has clear ownership, persistence, backup, restore, and rebuild expectations. | Data Architecture, Service Catalog, Integrations and Events. | Link restore and replay evidence. |

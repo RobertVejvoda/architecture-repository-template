@@ -2,22 +2,12 @@
 
 <!--
 Purpose:
-Describe what the business must be able to do, independent of system implementation.
-
-Use this page for:
-- capability map
-- capability definitions
-- capability priority or maturity
-- traceability to value streams and application services
-
-Avoid:
-- UI screens
-- database tables
-- implementation tasks
+Name stable business abilities needed by the architecture.
 -->
 
 | Capability | Description | Priority | Notes |
 | --- | --- | --- | --- |
-| Tenant Onboarding | Create, configure, validate, and activate a customer or organizational tenant. | High | Often gates first customer readiness and operational support. |
-| Resource Allocation | Match constrained resources to eligible requests using approved business rules. | High | Requires explainability, fairness, and exception handling. |
-| Operational Oversight | Monitor requests, exceptions, service health, and readiness evidence. | Medium | Supports HR, operators, managers, and support roles. |
+| Customer / User Management | Identify, onboard, and manage the people or organizations that use the solution. | High | Replace with project-specific capability names. |
+| Core Domain Operation | Execute the main business outcome supported by the architecture. | High | Keep capability names stable and business-oriented. |
+| Reporting And Insight | Provide approved operational, management, or compliance views. | Medium | Link to data ownership and reporting requirements. |
+| Operations And Support | Run, monitor, support, recover, and improve the solution. | High | Link to technology, readiness, and governance artifacts. |

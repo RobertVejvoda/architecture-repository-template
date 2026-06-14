@@ -2,16 +2,16 @@
 
 <!--
 Purpose:
-Describe the business shape independent of software implementation.
+Describe business capabilities, value streams, actors, processes, policies, and business requirement interpretation.
 
 Use this page for:
 - business architecture overview
-- links to capabilities, value streams, actors, processes, and policies
-- major business assumptions and constraints
+- requirement interpretation for Phase B
+- links to capability, value stream, actor, process, and policy artifacts
 
 Avoid:
-- application component design
-- database or API details
+- detailed implementation design
+- duplicating requirements that belong in Requirements Management
 -->
 
 <table style="border:none;border-collapse:collapse;">
@@ -25,20 +25,19 @@ Avoid:
 <tr style="border:none;"><td style="border:none;padding:3px 16px 3px 0;"><strong>Next Review</strong></td><td style="border:none;padding:3px 0;">-</td></tr>
 </table>
 
-Business architecture explains what the organization needs to do and why it matters.
+Business architecture explains the business shape of the solution. Keep detailed obligations in [Requirements](/architecture/requirements.md) and use this section to show business meaning, ownership, process, and policy context.
 
 ## Contents
 
-- [Capabilities](/architecture/business/capabilities)
-- [Value Streams](/architecture/business/value-streams)
-- [Actors and Roles](/architecture/business/actors-roles)
-- [Business Processes](/architecture/business/business-processes)
-- [Policies](/architecture/business/policies)
+- [Capabilities](/architecture/business/capabilities.md)
+- [Value Streams](/architecture/business/value-streams.md)
+- [Actors and Roles](/architecture/business/actors-roles.md)
+- [Business Processes](/architecture/business/business-processes.md)
+- [Policies](/architecture/business/policies.md)
 
 ## Requirement Coverage
 
-Use this section to show how Business Architecture interprets central requirements from [Requirements Management](/architecture/requirements). Do not duplicate the central requirement as a new competing requirement. Keep ownership and lifecycle in Requirements Management; record business interpretation, impact, and evidence here.
-
 | Requirement | Business Interpretation | Impacted Artifacts | Evidence / Gap |
 | --- | --- | --- | --- |
-| AR-FS-001 | FairSpot sample: business roles and processes must not expose or act on another tenant's requests, people, policy, or reports. | Actors and Roles, Business Processes, Policies. | Validate privileged support/HR actions against tenant boundary. |
+| AR-001 | Business roles and processes must only expose data and actions that match responsibility and organizational scope. | Actors and Roles, Business Processes, Policies. | Validate privileged and support actions against business responsibility. |
+| AR-004 | Business architecture must distinguish target business intent from implementation evidence and open gaps. | Capabilities, Value Streams, Business Processes. | Link gaps where business validation is incomplete. |

@@ -62,8 +62,8 @@ Docsify resolves all Markdown links relative to the **docs root**, not relative 
 ### ✅ Correct — absolute from docs root
 
 ```markdown
-[Business Architecture](architecture/business/README.md)
-[Artifact Register](architecture/artifact-register.md)
+[Business Architecture](/architecture/business/README.md)
+[Artifact Register](/architecture/artifact-register.md)
 ```
 
 ### ❌ Wrong — relative to the file (will 404)
@@ -78,7 +78,7 @@ Docsify resolves all Markdown links relative to the **docs root**, not relative 
 Never use `./` prefix in sidebar links. Write paths directly from the docs root:
 
 ```markdown
-* [Architecture Repository](architecture/README.md)   ✅
+* [Architecture Repository](/architecture/README.md)   ✅
 * [Architecture Repository](./architecture/README.md) ❌
 ```
 
@@ -97,11 +97,11 @@ Never use `./` prefix in sidebar links. Write paths directly from the docs root:
 1. Create `docs/architecture/information-systems/integration-patterns.md`
 2. Add to `_sidebar.md`:
    ```markdown
-   * [Integration Patterns](architecture/information-systems/integration-patterns.md)
+   * [Integration Patterns](/architecture/information-systems/integration-patterns.md)
    ```
 3. Link from other pages using:
    ```markdown
-   [Integration Patterns](architecture/information-systems/integration-patterns.md)
+   [Integration Patterns](/architecture/information-systems/integration-patterns.md)
    ```
 
 ---
