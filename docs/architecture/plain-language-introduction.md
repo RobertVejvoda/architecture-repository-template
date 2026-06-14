@@ -101,9 +101,9 @@ Use [Artifact Register](/architecture/artifact-register.md) to see the status an
 | Sponsor / Product Owner | Check direction, risk, cost, timing, and decisions needed. | Architecture Vision, Decisions, Risk Register, Version Register | Decision input, risk acceptance, priority trade-offs. |
 | Business Owner | Confirm business process, operational impact, and transition acceptability. | Business Processes, Requirements, Transition Architectures | Process corrections, requirement ownership, acceptance concerns. |
 | Security / Privacy Reviewer | Confirm obligations, controls, evidence, privacy, and accepted exceptions. | Requirements, Security Architecture, Privacy Architecture, Controls | Mandatory controls, evidence needs, risk/waiver input. |
-| IT Operations / Platform | Confirm deployability, monitoring, restore, support, and troubleshooting. | Technology Architecture, Observability, Delivery Operating Model, Readiness | Run requirements, support gaps, handover evidence. |
+| IT Operations / Platform | Confirm deployability, monitoring, restore, support, and troubleshooting. | Technology Architecture, Observability, Readiness | Run requirements, support gaps, handover evidence. |
 | Data / Reporting Owner | Confirm data ownership, definitions, lineage, freshness, and reporting needs. | Data Architecture, Integrations and Events, API Contracts, Gap Analysis | Data rules, reporting needs, quality/freshness concerns. |
-| Delivery Lead | Check feasibility, dependencies, sequencing, capacity risks, and delivery links. | Roadmap, Work Packages, Delivery Operating Model, Governance Log | Delivery feasibility, dependency risks, delivery references. |
+| Delivery Lead | Check feasibility, dependencies, sequencing, capacity risks, and delivery links. | Roadmap, Work Packages, Gap Analysis, Readiness | Delivery feasibility, dependency risks, delivery references. |
 | Architecture Board | Decide or defer architecture-significant questions and ensure outcomes are recorded. | Governance Log, Decisions, Change Set, Version Register | Decisions, acceptance, risk/waiver direction. |
 | External Supplier / Assessor | Understand context, compare options, record assumptions, and provide evidence. | Candidate Architectures, Architecture Review, Gap Analysis, Risk Register | Assessment findings, option recommendations, risks, evidence. |
 

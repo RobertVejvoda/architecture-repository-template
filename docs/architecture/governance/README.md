@@ -34,7 +34,6 @@ Avoid:
 - [Architecture Governance Log](/architecture/governance/architecture-governance-log.md)
 - [Architecture Review](/architecture/governance/architecture-review.md)
 - [Architecture Contract](/architecture/governance/architecture-contract.md)
-- [Delivery Operating Model](/architecture/governance/delivery-operating-model.md)
 - [Architecture Change Set](/architecture/governance/architecture-change-set.md)
 - [Change Control](/architecture/governance/change-control.md)
 - [Waivers](/architecture/governance/waivers.md)

@@ -30,10 +30,17 @@ Avoid:
 
 - [Migration Roadmap](/architecture/implementation-migration/roadmap.md)
 - [Work Packages](/architecture/implementation-migration/work-packages.md)
-- [Delivery Sourcing Options](/architecture/implementation-migration/delivery-sourcing-options.md)
 - [Architecture Increment Checklist](/architecture/implementation-migration/vertical-slice-checklist.md)
 - [Readiness](/architecture/implementation-migration/readiness.md)
 - [Transition Architectures](/architecture/architecture-states/transition-architectures.md)
+
+## Scrum Team Guidance
+
+Scrum is a delivery execution model. TOGAF is an architecture governance and decision model. They should reinforce each other: architecture provides guardrails and traceability, while Scrum delivers increments and exposes implementation feedback.
+
+Scrum backlog items are not the architecture source of truth. Architecture-significant requirements, decisions, constraints, target states, risks, gaps, waivers, and conformance expectations belong in the architecture repository and should be linked from delivery work.
+
+For Scrum teams, a delivery slice is ready when the relevant architecture guardrails are known or explicitly marked as open questions. A slice is done when it works, has evidence, and conforms to the accepted architecture or has an accepted waiver.
 
 ## Requirement Coverage
 

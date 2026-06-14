@@ -8,7 +8,7 @@ Use this page for:
 - externally imposed deadlines
 - platform constraints
 - regulatory boundaries
-- budget or sourcing limits
+- budget limits
 - mandatory technology or integration constraints
 
 Avoid:

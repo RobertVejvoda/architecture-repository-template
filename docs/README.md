@@ -10,7 +10,10 @@ This page tracks the version of the template document structure itself. Project-
 
 | Version | Date | Status | Summary | Migration Notes |
 | --- | --- | --- | --- | --- |
-| 2.0 | 2026-06-14 | Draft | Added the reusable governance model from the evolved architecture repository pattern. | Add plain-language onboarding, candidate architectures, governance log, architecture change sets, delivery operating model, delivery sourcing options, and increment checklist where useful. |
+| 2.3 | 2026-06-14 | Draft | Simplified governance and migration structure by removing delivery sourcing and delivery operating model artifacts. | Keep supplier, staffing, and operating-model choices outside the architecture template unless they create architecture-significant constraints, risks, or decisions. |
+| 2.2 | 2026-06-14 | Draft | Added implementation and migration diagram examples, including roadmap Gantt, work package dependency, transition state, and gap closure views. | Keep examples on the architecture pages that own the concern, and use the diagram register for lifecycle, source, export, and supported-version tracking. |
+| 2.1 | 2026-06-14 | Draft | Added PlantUML ArchiMate-rendered FairSpot example implementations and related-view links from architecture pages. | Use examples as starters, replace sample terms with project terms, and track editable source plus exported image paths in the diagram register. |
+| 2.0 | 2026-06-14 | Draft | Added the reusable governance model from the evolved architecture repository pattern. | Add plain-language onboarding, candidate architectures, governance log, architecture change sets, and increment checklist where useful. |
 | 1.1 | 2026-06-03 | Draft | Simplified the default viewpoint catalog around stakeholder-question navigation and reduced starter diagram placeholders. | Treat the catalog as a lightweight navigation aid; add optional viewpoints only when a real stakeholder concern needs them. |
 | 1.0 | 2026-06-03 | Draft | Added viewpoint taxonomy, diagram placeholders, and abstract view/diagram versioning rules. | Use the central Views and Diagrams section to govern diagram lifecycle, while architecture sections link their related views without duplicating the diagram register. |
 | 0.9 | 2026-06-01 | Draft | Limited metadata tables to top-level Architecture Repository pages and the artifact register. | Track detailed child artifacts from the Artifact Register instead of repeating metadata on every page. |
@@ -33,7 +36,7 @@ This page tracks the version of the template document structure itself. Project-
 | Business stakeholder | [Business Architecture](/architecture/business/README.md) | Understand capabilities, value streams, actors, processes, and policies. |
 | Technical stakeholder | [Information Systems](/architecture/information-systems/README.md) and [Technology](/architecture/technology/README.md) | Understand applications, data, integrations, runtime, and deployment. |
 | Security reviewer | [Security Architecture](/architecture/security/README.md) | Understand security, privacy, controls, and known gaps. |
-| Delivery lead | [Implementation And Migration](/architecture/implementation-migration/README.md) | Understand roadmap, work packages, sourcing, increment checklist, and readiness. |
+| Delivery lead | [Implementation And Migration](/architecture/implementation-migration/README.md) | Understand roadmap, work packages, increment checklist, and readiness. |
 | Architecture governor | [Architecture States](/architecture/architecture-states/README.md), [Governance Log](/architecture/governance/architecture-governance-log.md), and [Artifact Register](/architecture/artifact-register.md) | Understand active governance questions, baseline/target versions, artifact status, and gaps. |
 | Implementation team | [Technology Standards](/architecture/technology/standards.md) and [Architecture Contract](/architecture/governance/architecture-contract.md) | Understand approved choices and conformance expectations. |
 

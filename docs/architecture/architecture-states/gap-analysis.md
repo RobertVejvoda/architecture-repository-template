@@ -30,3 +30,36 @@ Avoid:
 | In Progress | Work is actively closing the gap. |
 | Closed | Evidence shows the gap is closed. |
 | Accepted | Gap remains by explicit risk or scope decision. |
+
+## Related Views
+
+| View | Use When | Example |
+| --- | --- | --- |
+| Gap Closure View | A reader needs to see gaps mapped to work packages, target states, and residual risk. | [Gap Closure Map](#example-gap-closure-map) |
+| Work Package Dependency View | A reader needs to see delivery dependencies that affect gap closure. | [Work Package Dependency Diagram](/architecture/implementation-migration/work-packages?id=example-work-package-dependency-diagram) |
+
+## Example Gap Closure Map
+
+```plantuml
+@startuml
+!include <archimate/Archimate>
+LAYOUT_LEFT_RIGHT()
+
+Implementation_Gap(gap1, "GAP-001\nDurable State")
+Implementation_Gap(gap2, "GAP-002\nAPI Contract Evidence")
+Implementation_Gap(gap3, "GAP-003\nSecurity Readiness")
+Implementation_WorkPackage(wp2, "WP-002\nPilot Readiness")
+Implementation_WorkPackage(wp3, "WP-003\nRead Model Foundation")
+Motivation_Requirement(req, "AR-002\nRestart-Safe State")
+Motivation_Assessment(risk, "Accepted Residual Risk")
+Implementation_Plateau(pilot, "Pilot Target v0.1")
+
+Rel_Association(req, gap1, "drives")
+Rel_Association(gap1, wp2, "closed by")
+Rel_Association(gap2, wp3, "closed by")
+Rel_Association(gap3, wp2, "closed by")
+Rel_Realization(wp2, pilot, "readiness evidence")
+Rel_Realization(wp3, pilot, "read model evidence")
+Rel_Association(gap3, risk, "if not closed")
+@enduml
+```

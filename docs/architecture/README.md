@@ -48,7 +48,7 @@ State important exclusions clearly. A reader should know whether this repository
 | [Technology Architecture](/architecture/technology/README.md) | Runtime, deployment, observability, approved standards, and operational profiles. |
 | [Security Architecture](/architecture/security/README.md) | Security, privacy, controls, trust boundaries, and known gaps. |
 | [Architecture States](/architecture/architecture-states/README.md) | Baseline, candidate, target, transition states, gap analysis, risk register, and version register. |
-| [Implementation And Migration](/architecture/implementation-migration/README.md) | Migration roadmap, work packages, delivery sourcing options, increment checklist, and readiness. |
+| [Implementation And Migration](/architecture/implementation-migration/README.md) | Migration roadmap, work packages, increment checklist, and readiness. |
 | [Governance](/architecture/governance/README.md) | Architecture board, governance log, review, contract, change set, change control, and waivers. |
 | [Views And Diagrams](/architecture/views/README.md) | Viewpoint catalog and diagram register. |
 | [Repository Changes](/architecture/repository-changes.md) | Repository-structure changes that affect navigation or governance interpretation. |
