@@ -24,6 +24,7 @@ Describe data ownership, classification, lifecycle, read models, and evidence ne
 | View | Use When | Example |
 | --- | --- | --- |
 | Data Flow View | A reader needs to see how data crosses applications, events, APIs, files, or external integrations. | [Data Flow Diagram](#example-data-flow-diagram) |
+| Domain Lifecycle View | A reader needs to see allowed business-object states and lifecycle transitions. | [Domain Lifecycle State Model](#example-domain-lifecycle-state-model) |
 | Security And Privacy View | A reader needs to see personal-data boundaries, controls, or sensitive data risks. | [Security And Privacy Diagram](/architecture/security/security-architecture?id=example-security-and-privacy-diagram) |
 
 ## Example Data Flow Diagram
@@ -47,5 +48,33 @@ Rel_Flow(bookingService, eventBus, "BookingSubmitted event")
 Rel_Triggering(eventBus, allocationService, "triggers")
 Rel_Triggering(eventBus, reporting, "triggers")
 Rel_Flow(allocationService, notificationService, "allocation result")
+@enduml
+```
+
+## Example Domain Lifecycle State Model
+
+```plantuml
+@startuml
+hide empty description
+
+[*] --> Submitted : request created
+Submitted --> Pending : eligible for allocation
+Submitted --> Rejected : invalid or out of scope
+Pending --> Allocated : draw allocates
+Pending --> Expired : slot window closes
+Allocated --> Completed : allocation used
+Allocated --> Cancelled : user or admin cancels
+Cancelled --> [*]
+Rejected --> [*]
+Expired --> [*]
+Completed --> [*]
+
+state Submitted
+state Pending
+state Allocated
+state Cancelled
+state Rejected
+state Expired
+state Completed
 @enduml
 ```

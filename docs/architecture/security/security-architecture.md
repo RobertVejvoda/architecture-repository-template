@@ -44,7 +44,7 @@ Move board-level or acceptance-blocking questions to [Architecture Governance Lo
 ```plantuml
 @startuml
 !include <archimate/Archimate>
-LAYOUT_LEFT_RIGHT()
+LAYOUT_TOP_DOWN()
 
 Technology_Device(user, "User Device")
 Technology_Service(edge, "TLS + WAF + Auth")
@@ -62,5 +62,12 @@ Rel_Access_rw(api, scopeData, "accesses")
 Rel_Access_w(api, audit, "creates")
 Rel_Association(retention, scopeData, "constrains")
 Rel_Association(risk, scopeData, "risk")
+
+' Layering hint: requirements above application/data above technology.
+authz -[hidden]down- api
+retention -[hidden]down- scopeData
+risk -[hidden]down- audit
+api -[hidden]down- edge
+scopeData -[hidden]down- user
 @enduml
 ```

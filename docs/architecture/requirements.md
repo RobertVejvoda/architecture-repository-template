@@ -30,6 +30,10 @@ Avoid:
 
 Requirements Management is continuous across the ADM. Requirements are captured centrally here, then each affected phase explains how it interprets and satisfies the requirement in its own artifact.
 
+## Purpose And Granularity
+
+Use this page as the architecture requirement source of truth. GitHub issues can implement or prove a requirement, but they should not become the durable requirement text. When implementation work reveals a new architecture-significant need, update this page, then link the affected decisions, gaps, work packages, and evidence.
+
 ## Requirement Register
 
 Keep requirement statements generic enough to remain stable. The affected phases make them concrete.
@@ -40,6 +44,39 @@ Keep requirement statements generic enough to remain stable. The affected phases
 | AR-002 | Operational state needed for pilot or production must survive restart and have backup/restore evidence. | Operations concern | C, D, E/F, G | Draft |
 | AR-003 | Public-facing surfaces must be protected by an approved ingress, identity, logging, and abuse-prevention profile. | Security/operations concern | C, D, Security, G | Draft |
 | AR-004 | Architecture artifacts must separate target state from current-state evidence, gaps, risks, and delivery tasks. | Governance concern | Preliminary, E/F, G, H | Draft |
+
+## Related Views
+
+| View | Use When | Example |
+| --- | --- | --- |
+| Requirement Traceability View | A reader needs to see how stakeholder concerns connect to requirements, decisions, gaps, work packages, and evidence. | [Requirement Traceability Map](#example-requirement-traceability-map) |
+| Gap Closure View | A reader needs to see which gaps and work packages close material requirements. | [Gap Closure Map](/architecture/architecture-states/gap-analysis?id=example-gap-closure-map) |
+
+## Example Requirement Traceability Map
+
+```plantuml
+@startuml
+!include <archimate/Archimate>
+LAYOUT_LEFT_RIGHT()
+
+Motivation_Driver(concern, "Stakeholder Concern\nScoped access")
+Motivation_Requirement(req, "AR-001\nRole / Scope Access")
+Motivation_Assessment(decision, "ADR-002\nScope Is Cross-Phase")
+Implementation_Gap(gap, "GAP-003\nSecurity Readiness")
+Implementation_WorkPackage(wp, "WP-002\nPilot Readiness")
+Implementation_Deliverable(evidence, "Readiness Evidence\nPRs / tests / reviews")
+Motivation_Assessment(risk, "Residual Risk Or Waiver")
+
+Rel_Association(concern, req, "drives")
+Rel_Association(req, decision, "shapes")
+Rel_Association(req, gap, "reveals")
+Rel_Association(decision, gap, "constrains")
+Rel_Association(gap, wp, "closed by")
+Rel_Realization(wp, evidence, "delivers")
+Rel_Association(evidence, req, "proves")
+Rel_Association(risk, evidence, "if incomplete")
+@enduml
+```
 
 ## Phase Impact Tracking
 

@@ -27,6 +27,17 @@ Avoid:
 - Track detailed tasks, assignees, and sprint progress in the delivery tool.
 - Link work packages to requirements, gaps, risks, and readiness evidence.
 
+## Work Package Granularity
+
+A work package is an architecture delivery unit. It should deliver, enable, or prove an architecture state, such as closing a gap, producing readiness evidence, or realizing part of a transition architecture. One work package can map to several GitHub issues, but issue status, assignees, sprint planning, and implementation checklists should stay in GitHub.
+
+| Level | Example | Source Of Truth |
+| --- | --- | --- |
+| Architecture state | Pilot Target v0.1 | Architecture States |
+| Gap or requirement | GAP-001 Durable State | Gap Analysis / Requirements |
+| Work package | WP-002 Pilot Readiness | Work Packages |
+| Delivery split | Add persistent store, restore smoke test, readiness endpoint, runbook | GitHub issues |
+
 ## Related Views
 
 | View | Use When | Example |

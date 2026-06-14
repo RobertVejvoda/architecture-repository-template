@@ -10,6 +10,8 @@ This page tracks the version of the template document structure itself. Project-
 
 | Version | Date | Status | Summary | Migration Notes |
 | --- | --- | --- | --- | --- |
+| 2.5 | 2026-06-14 | Draft | Added solution context, requirement traceability, domain lifecycle, and operational readiness/resilience example views. | Use these views to connect scope, requirements, lifecycle states, and readiness evidence without duplicating backlog items or implementation logs. |
+| 2.4 | 2026-06-14 | Draft | Added value stream, baseline, candidate, and target architecture example sketches with page-level purpose guidance. | Keep architecture sketches at state, outcome, and tradeoff level; split implementation detail into GitHub issues only after it is traceable to architecture requirements, gaps, decisions, or work packages. |
 | 2.3 | 2026-06-14 | Draft | Simplified governance and migration structure by removing delivery sourcing and delivery operating model artifacts. | Keep supplier, staffing, and operating-model choices outside the architecture template unless they create architecture-significant constraints, risks, or decisions. |
 | 2.2 | 2026-06-14 | Draft | Added implementation and migration diagram examples, including roadmap Gantt, work package dependency, transition state, and gap closure views. | Keep examples on the architecture pages that own the concern, and use the diagram register for lifecycle, source, export, and supported-version tracking. |
 | 2.1 | 2026-06-14 | Draft | Added PlantUML ArchiMate-rendered FairSpot example implementations and related-view links from architecture pages. | Use examples as starters, replace sample terms with project terms, and track editable source plus exported image paths in the diagram register. |

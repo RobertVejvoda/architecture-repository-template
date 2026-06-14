@@ -30,7 +30,7 @@ Describe important business processes at a level useful for architecture validat
 ```plantuml
 @startuml
 !include <archimate/Archimate>
-LAYOUT_LEFT_RIGHT()
+LAYOUT_TOP_DOWN()
 
 Business_Actor(employee, "Employee")
 Business_Process(request, "Request Parking Space")
@@ -46,5 +46,9 @@ Rel_Serving(bookingService, request, "serves")
 Rel_Triggering(draw, allocate, "triggers")
 Rel_Access_w(allocate, allocationResult, "creates")
 Rel_Flow(allocationResult, employee, "notifies")
+
+' Layering hint: business process above supporting application service.
+request -[hidden]down- bookingService
+allocate -[hidden]down- bookingService
 @enduml
 ```
